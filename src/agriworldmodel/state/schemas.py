@@ -23,6 +23,7 @@ class StateEvent(BaseModel):
 
 class FarmStateSnapshot(BaseModel):
     management_unit_id: uuid.UUID
+    crop_cycle_id: uuid.UUID | None = None
 
     # What point in farm history are we reconstructing?
     effective_at: datetime.datetime

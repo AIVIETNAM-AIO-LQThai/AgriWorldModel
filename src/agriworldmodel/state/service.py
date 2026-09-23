@@ -11,7 +11,8 @@ def get_visible_events(
     session: Session, *,
     management_unit_id: uuid.UUID,
     effective_at: datetime.datetime,
-    knowledge_cutoff: datetime.datetime
+    knowledge_cutoff: datetime.datetime,
+    crop_cycle_id: uuid.UUID | None = None
 ) -> list[Event]:
     """
     Return events that:
@@ -31,6 +32,16 @@ def get_visible_events(
         superseding_event.recorded_at <= knowledge_cutoff
     )
 
+    conditions = [
+        Event.management_unit_id == management_unit_id,
+        Event.occurred_start <= effective_at,
+        Event.recorded_at <= knowledge_cutoff,
+        ~has_known_superseder
+    ]
+
+    if crop_cycle_id is not None:
+        conditions.append(Event.crop_cycle_id == crop_cycle_id)
+
     stmt = select(Event).where(
         Event.management_unit_id == management_unit_id,
         Event.occurred_start <= effective_at,
@@ -47,17 +58,20 @@ def get_state(
     session: Session, *,
     management_unit_id: uuid.UUID,
     effective_at: datetime.datetime,
-    knowledge_cutoff: datetime.datetime
+    knowledge_cutoff: datetime.datetime,
+    crop_cycle_id: uuid.UUID | None = None
 ) -> FarmStateSnapshot:
     events = get_visible_events(
         session,
         management_unit_id=management_unit_id,
         effective_at=effective_at,
-        knowledge_cutoff=knowledge_cutoff
+        knowledge_cutoff=knowledge_cutoff,
+        crop_cycle_id=crop_cycle_id
     )
 
     return FarmStateSnapshot(
         management_unit_id=management_unit_id,
+        crop_cycle_id=crop_cycle_id,
         effective_at=effective_at,
         knowledge_cutoff=knowledge_cutoff,
         events=[StateEvent.model_validate(event) for event in events]
