@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.6-pg17
+    container_name: agriworld-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: agriworld
+      POSTGRES_USER: agriworld
+      POSTGRES_PASSWORD: agriworld_dev
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agriworld -d agriworld"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
