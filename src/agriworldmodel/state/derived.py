@@ -12,10 +12,16 @@ class FertilizerApplicationState(BaseModel):
     event_id: uuid.UUID
     occurred_at: datetime.datetime
     days_since: int
+
     product_name: str
+
     amount: float
     amount_unit: str
     basis: str
+
+    n_pct: float | None = None
+    p2o5_pct: float | None = None
+    k2o_pct: float | None = None
 
 class NutrientState(BaseModel):
     application_count: int
@@ -56,14 +62,17 @@ def derive_nutrient_state(snapshot: FarmStateSnapshot) -> NutrientState:
         last_application=FertilizerApplicationState(
             event_id=latest.id,
             occurred_at=latest.occurred_start,
-            days_since=_days_since(
-                snapshot.effective_at,
-                latest.occurred_start
-            ),
+            days_since=_days_since(snapshot.effective_at, latest.occurred_start),
+
             product_name=payload.product_name,
+
             amount=payload.amount,
             amount_unit=payload.amount_unit,
-            basis=payload.basis
+            basis=payload.basis,
+
+            n_pct=payload.n_pct,
+            p2o5_pct=payload.p2o5_pct,
+            k2o_pct=payload.k2o_pct,
         )
     )
 
