@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from agriworldmodel.db.models.crop_cycle import CropCycle
 from agriworldmodel.db.models.farm import Farm, ManagementUnit
 from agriworldmodel.decisions.schemas import DecisionContext, DecisionType
-from agriworldmodel.state.derived import derive_crop_protection_state, derive_nutrient_state,
+from agriworldmodel.state.derived import derive_crop_protection_state, derive_nutrient_state
 from agriworldmodel.state.service import get_state
 
 class DecisionContextError(ValueError):
