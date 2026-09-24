@@ -8,18 +8,14 @@ from agriworldmodel.db.models.crop_cycle import CropCycle
 UTC = datetime.timezone.utc
 
 def dt(day: int) -> datetime.datetime:
-    return datetime.datetime(
-        2026, 9, day, 8, 0, tzinfo=UTC
-    )
+    return datetime.datetime(2026, 9, day, 8, 0, tzinfo=UTC)
 
 def make_unit(db_session):
     farm = Farm(
         name="Fixture Farm",
         province="Dong Nai",
     )
-    unit = ManagementUnit(
-        farm=farm, name="Block B3", area_m2=10_000
-    )
+    unit = ManagementUnit(farm=farm, name="Block B3", area_m2=10_000)
 
     db_session.add(farm)
     db_session.flush()
@@ -31,7 +27,6 @@ def test_late_report_does_not_leak_into_past_state(db_session):
 
     event = Event(
         management_unit_id=unit.id,
-
         event_type="fertilizer_application",
 
         # Actually happened Sep 10.
@@ -39,9 +34,7 @@ def test_late_report_does_not_leak_into_past_state(db_session):
 
         # Agent only learned about it Sep 13.
         recorded_at=dt(13),
-
         source="farmer_confirmed",
-
         payload={
             "product": "NPK fixture",
             "kg_per_tree": 2.0,
@@ -70,11 +63,7 @@ def test_late_report_does_not_leak_into_past_state(db_session):
     )
 
     assert len(state_sep14.events) == 1
-
-    assert (
-        state_sep14.events[0].event_type
-        == "fertilizer_application"
-    )
+    assert state_sep14.events[0].event_type == "fertilizer_application"
 
 def test_correction_only_changes_state_after_it_is_known(db_session):
     unit = make_unit(db_session)
@@ -101,14 +90,11 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
 
         # Correction only learned Sep 15.
         recorded_at=dt(15),
-
         source="farmer_correction",
-
         payload={
             "product": "NPK fixture",
             "kg_per_tree": 1.5,
         },
-
         supersedes_id=original.id,
     )
 
@@ -124,11 +110,7 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
     )
 
     assert len(state_before_correction.events) == 1
-    assert (
-        state_before_correction.events[0]
-        .payload["kg_per_tree"]
-        == 2.0
-    )
+    assert state_before_correction.events[0].payload["kg_per_tree"] == 2.0
 
     # What does it believe after learning the correction?
     state_after_correction = get_state(
@@ -139,11 +121,7 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
     )
 
     assert len(state_after_correction.events) == 1
-    assert (
-        state_after_correction.events[0]
-        .payload["kg_per_tree"]
-        == 1.5
-    )
+    assert state_after_correction.events[0].payload["kg_per_tree"] == 1.5
 
 def test_state_filters_events_by_crop_cycle(db_session):
     unit = make_unit(db_session)

@@ -6,7 +6,6 @@ Percent = Annotated[float, Field(ge=0, le=100)]
 
 class FertilizerApplicationPayload(BaseModel):
     product_name: str
-
     amount: PositiveFloat
     amount_unit: Literal["kg", "g", "L", "mL"]
 
@@ -21,16 +20,11 @@ class FertilizerApplicationPayload(BaseModel):
 
 class PesticideApplicationPayload(BaseModel):
     product_name: str
-
-    active_ingredients: list[str] = Field(
-        default_factory=list
-    )
+    active_ingredients: list[str] = Field(default_factory=list)
 
     target: str | None = None
-
     dose_value: PositiveFloat | None = None
     dose_unit: str | None = None
-
     method: str | None = None
     notes: str | None = None
 
@@ -43,4 +37,4 @@ def validate_event_payload(
     if event_type == "pesticide_application":
         return PesticideApplicationPayload.model_validate(payload).model_dump()
 
-    return payload
+    raise ValueError(f"Unsupported event type: {event_type}")
