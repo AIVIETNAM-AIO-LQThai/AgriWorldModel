@@ -1,5 +1,4 @@
 from typing import Protocol
-from FlagEmbedding import BGEM3FlagModel
 
 EMBEDDING_DIMENSION = 1024
 DEFAULT_EMBEDDING_MODEL = "BAAI/bge-m3"
@@ -38,6 +37,7 @@ class BGEM3DenseEmbedder:
     def __init__(
         self, *, use_fp16: bool = False, devices: list[str] | None = None
     ):
+        from FlagEmbedding import BGEM3FlagModel
         kwargs = {
             "use_fp16": use_fp16,
         }

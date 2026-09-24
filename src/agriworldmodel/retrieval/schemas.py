@@ -50,3 +50,7 @@ class HybridRetrievedChunk(BaseModel):
     dense_score: float | None = None
 
     rrf_score: float
+
+class RerankedChunk(HybridRetrievedChunk):
+    hybrid_rank: int
+    rerank_score: float
