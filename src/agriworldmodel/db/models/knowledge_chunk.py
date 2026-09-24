@@ -1,6 +1,8 @@
 import uuid
 from typing import Any
 
+from pgvector.sqlalchemy import Vector
+
 from sqlalchemy import Computed, ForeignKey, Index, Integer, String, Text, UniqueConstraint
 from sqlalchemy.dialects.postgresql import JSONB, TSVECTOR, UUID
 from sqlalchemy.orm import Mapped, mapped_column
@@ -31,12 +33,18 @@ class KnowledgeChunk(Base):
         ForeignKey("evidence_source.id"), nullable=False, index=True
     )
 
-    chunk_index: Mapped[int] = mapped_column(
-        Integer, nullable=False
-    )
+    chunk_index: Mapped[int] = mapped_column(Integer, nullable=False)
 
-    content: Mapped[str] = mapped_column(
-        Text, nullable=False
+    content: Mapped[str] = mapped_column(Text, nullable=False)
+     # Dense semantic representation.
+    #
+    # BGE-M3 produces 1024-dimensional dense embeddings.
+    # Nullable so lexical-only ingestion remains valid.
+    embedding: Mapped[list[float] | None] = mapped_column(
+        Vector(1024), nullable=True
+    )
+    embedding_model: Mapped[str | None] = mapped_column(
+        String(200), nullable=True
     )
 
     # Exact location inside the original source.
@@ -44,22 +52,13 @@ class KnowledgeChunk(Base):
     # "p. 12"
     # "pp. 12-13"
     # "Section 4.2"
-    locator: Mapped[str] = mapped_column(
-        String(500), nullable=False,
-    )
-
-    language: Mapped[str | None] = mapped_column(
-        String(20), nullable=True,
-    )
+    locator: Mapped[str] = mapped_column(String(500), nullable=False)
+    language: Mapped[str | None] = mapped_column(String(20), nullable=True)
 
     # None = globally applicable.
-    crop: Mapped[str | None] = mapped_column(
-        String(100), nullable=True, index=True,
-    )
+    crop: Mapped[str | None] = mapped_column(String(100), nullable=True, index=True)
 
-    chunk_metadata: Mapped[dict[str, Any]] = mapped_column(
-        JSONB, nullable=False, default=dict,
-    )
+    chunk_metadata: Mapped[dict[str, Any]] = mapped_column(JSONB, nullable=False, default=dict)
 
     # PostgreSQL-native lexical representation.
     #
