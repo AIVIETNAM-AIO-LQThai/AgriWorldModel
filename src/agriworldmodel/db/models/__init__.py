@@ -5,6 +5,7 @@ from agriworldmodel.db.models.agronomic_assertion import AgronomicAssertion
 from agriworldmodel.db.models.assertion_evidence import AssertionEvidence
 from agriworldmodel.db.models.evidence_source import EvidenceSource
 from agriworldmodel.db.models.decision_requirement import DecisionRequirement
+from agriworldmodel.db.models.knowledge_chunk import KnowledgeChunk
 
 __all__ = [
     "Farm",
@@ -14,5 +15,6 @@ __all__ = [
     "EvidenceSource",
     "AgronomicAssertion",
     "AssertionEvidence",
-    "DecisionRequirement"
+    "DecisionRequirement",
+    "KnowledgeChunk"
 ]
