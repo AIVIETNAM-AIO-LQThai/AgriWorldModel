@@ -36,9 +36,11 @@ def test_late_report_does_not_leak_into_past_state(db_session):
         recorded_at=dt(13),
         source="farmer_confirmed",
         payload={
-            "product": "NPK fixture",
-            "kg_per_tree": 2.0,
-        },
+            "product_name": "NPK fixture",
+            "amount": 2.0,
+            "amount_unit": "kg",
+            "basis": "per_tree",
+        }
     )
 
     db_session.add(event)
@@ -75,8 +77,10 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
         recorded_at=dt(10),
         source="farmer_confirmed",
         payload={
-            "product": "NPK fixture",
-            "kg_per_tree": 2.0,
+            "product_name": "NPK fixture",
+            "amount": 2.0,
+            "amount_unit": "kg",
+            "basis": "per_tree",
         },
     )
 
@@ -92,8 +96,10 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
         recorded_at=dt(15),
         source="farmer_correction",
         payload={
-            "product": "NPK fixture",
-            "kg_per_tree": 1.5,
+            "product_name": "NPK fixture",
+            "amount": 1.5,
+            "amount_unit": "kg",
+            "basis": "per_tree",
         },
         supersedes_id=original.id,
     )
@@ -110,7 +116,7 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
     )
 
     assert len(state_before_correction.events) == 1
-    assert state_before_correction.events[0].payload["kg_per_tree"] == 2.0
+    assert state_before_correction.events[0].payload["amount"] == 2.0
 
     # What does it believe after learning the correction?
     state_after_correction = get_state(
@@ -121,7 +127,7 @@ def test_correction_only_changes_state_after_it_is_known(db_session):
     )
 
     assert len(state_after_correction.events) == 1
-    assert state_after_correction.events[0].payload["kg_per_tree"] == 1.5
+    assert state_after_correction.events[0].payload["amount"] == 1.5
 
 def test_state_filters_events_by_crop_cycle(db_session):
     unit = make_unit(db_session)
