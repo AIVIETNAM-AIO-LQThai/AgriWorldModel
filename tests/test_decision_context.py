@@ -32,6 +32,7 @@ def make_crop_cycle(db_session):
         management_unit_id=unit.id,
         crop="durian",
         cultivar="Ri6",
+        tree_count=180,
     )
 
     db_session.add(cycle)
@@ -78,6 +79,8 @@ def test_build_nutrient_decision_context(db_session):
     assert context.management_unit_name == unit.name
     assert context.crop == "durian"
     assert context.cultivar == "Ri6"
+    assert context.area_m2 == 10_000
+    assert context.tree_count == 180
     assert context.nutrient_state is not None
     assert context.nutrient_state.application_count == 1
     assert context.nutrient_state.last_application.product_name == "NPK 16-16-8"

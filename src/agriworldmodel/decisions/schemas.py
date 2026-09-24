@@ -25,6 +25,9 @@ class DecisionContext(BaseModel):
     crop: str
     cultivar: str | None
 
+    area_m2: float | None
+    tree_count: int | None
+
     farm_state: FarmStateSnapshot
 
     nutrient_state: NutrientState | None = None

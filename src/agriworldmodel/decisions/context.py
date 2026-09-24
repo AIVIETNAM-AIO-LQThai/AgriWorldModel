@@ -88,6 +88,9 @@ def build_decision_context(
         crop=cycle.crop,
         cultivar=cycle.cultivar,
 
+        area_m2=unit.area_m2,
+        tree_count=cycle.tree_count,
+
         farm_state=farm_state,
 
         nutrient_state=nutrient_state,
