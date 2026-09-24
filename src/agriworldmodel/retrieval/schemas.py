@@ -28,3 +28,25 @@ class RetrievedChunk(BaseModel):
 
     crop: str | None = None
     score: float
+
+class HybridRetrievedChunk(BaseModel):
+    chunk_id: uuid.UUID
+
+    source_id: uuid.UUID
+    source_type: str
+    source_title: str
+
+    chunk_index: int
+
+    content: str
+    locator: str
+
+    crop: str | None = None
+
+    lexical_rank: int | None = None
+    dense_rank: int | None = None
+
+    lexical_score: float | None = None
+    dense_score: float | None = None
+
+    rrf_score: float
