@@ -4,30 +4,14 @@ import pytest
 
 from agriworldmodel.db.models.crop_cycle import CropCycle
 from agriworldmodel.db.models.event import Event
-from agriworldmodel.db.models.farm import (
-    Farm,
-    ManagementUnit,
-)
-from agriworldmodel.decisions.context import (
-    DecisionContextError,
-    build_decision_context,
-)
+from agriworldmodel.db.models.farm import Farm, ManagementUnit
+from agriworldmodel.decisions.context import DecisionContextError, build_decision_context
 from agriworldmodel.decisions.schemas import DecisionType
-
 
 UTC = datetime.timezone.utc
 
-
 def dt(day: int) -> datetime.datetime:
-    return datetime.datetime(
-        2026,
-        9,
-        day,
-        8,
-        0,
-        tzinfo=UTC,
-    )
-
+    return datetime.datetime(2026, 9, day, 8, 0, tzinfo=UTC)
 
 def make_crop_cycle(db_session):
     farm = Farm(
@@ -58,12 +42,8 @@ def make_crop_cycle(db_session):
 # -------------------------------------------------------------------
 # 1. N1 context contains farm identity and derived nutrient state.
 # -------------------------------------------------------------------
-def test_build_nutrient_decision_context(
-    db_session,
-):
-    farm, unit, cycle = make_crop_cycle(
-        db_session
-    )
+def test_build_nutrient_decision_context(db_session):
+    farm, unit, cycle = make_crop_cycle(db_session)
 
     db_session.add(
         Event(
@@ -94,37 +74,20 @@ def test_build_nutrient_decision_context(
     )
 
     assert context.decision_type == DecisionType.NUTRIENT
-
     assert context.farm_name == farm.name
     assert context.management_unit_name == unit.name
-
     assert context.crop == "durian"
     assert context.cultivar == "Ri6"
-
     assert context.nutrient_state is not None
-
-    assert (
-        context.nutrient_state.application_count
-        == 1
-    )
-
-    assert (
-        context.nutrient_state
-        .last_application.product_name
-        == "NPK 16-16-8"
-    )
-
+    assert context.nutrient_state.application_count == 1
+    assert context.nutrient_state.last_application.product_name == "NPK 16-16-8"
     assert context.crop_protection_state is None
 
 # -------------------------------------------------------------------
 # 2. P1 context contains derived crop-protection state.
 # -------------------------------------------------------------------
-def test_build_crop_protection_decision_context(
-    db_session,
-):
-    _, unit, cycle = make_crop_cycle(
-        db_session
-    )
+def test_build_crop_protection_decision_context(db_session):
+    _, unit, cycle = make_crop_cycle(db_session)
 
     db_session.add(
         Event(
@@ -136,9 +99,7 @@ def test_build_crop_protection_decision_context(
             source="farm_record",
             payload={
                 "product_name": "Product A",
-                "active_ingredients": [
-                    "metalaxyl"
-                ],
+                "active_ingredients": ["metalaxyl"],
             },
         )
     )
@@ -155,41 +116,19 @@ def test_build_crop_protection_decision_context(
     )
 
     assert context.crop_protection_state is not None
-
-    assert (
-        context.crop_protection_state
-        .application_count
-        == 1
-    )
-
-    assert (
-        context.crop_protection_state
-        .active_ingredient_history
-        == ["metalaxyl"]
-    )
-
+    assert context.crop_protection_state.application_count == 1
+    assert context.crop_protection_state.active_ingredient_history == ["metalaxyl"]
     assert context.nutrient_state is None
 
 # -------------------------------------------------------------------
 # 3. A decision cannot use a crop cycle from another block.
 # -------------------------------------------------------------------
-def test_decision_context_rejects_wrong_unit_cycle(
-    db_session,
-):
-    farm = Farm(
-        name="Fixture Farm",
-        province="Dong Nai",
-    )
+def test_decision_context_rejects_wrong_unit_cycle(db_session):
+    farm = Farm(name="Fixture Farm", province="Dong Nai")
 
-    unit_a = ManagementUnit(
-        farm=farm,
-        name="Block A",
-    )
+    unit_a = ManagementUnit(farm=farm, name="Block A")
 
-    unit_b = ManagementUnit(
-        farm=farm,
-        name="Block B",
-    )
+    unit_b = ManagementUnit(farm=farm, name="Block B")
 
     db_session.add(farm)
     db_session.flush()
