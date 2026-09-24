@@ -1,8 +1,7 @@
-import datetime
 import uuid
 from typing import Any
 
-from pydantic import BaseModel
+from pydantic import BaseModel, AwareDatetime
 
 
 class EventProposal(BaseModel):
@@ -11,8 +10,8 @@ class EventProposal(BaseModel):
 
     event_type: str
 
-    occurred_start: datetime.datetime
-    occurred_end: datetime.datetime | None = None
+    occurred_start: AwareDatetime
+    occurred_end: AwareDatetime | None = None
 
     source: str
     payload: dict[str, Any]

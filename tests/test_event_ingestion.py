@@ -1,5 +1,5 @@
 import datetime
-
+import uuid
 import pytest
 from sqlalchemy import select
 
@@ -313,3 +313,106 @@ def test_recorded_at_is_assigned_by_system(db_session):
     # are two different concepts.
     assert event.occurred_start == dt(10)
     assert event.recorded_at != event.occurred_start
+
+# -------------------------------------------------------------------
+# 9. whether the new/not-yet managed unit is rejected.
+# -------------------------------------------------------------------
+def test_nonexistent_management_unit_is_rejected(db_session):
+    proposal = EventProposal(
+        management_unit_id=uuid.uuid4(),
+        event_type="fertilizer_application",
+        occurred_start=dt(10),
+        source="farmer_confirmed",
+        payload={
+            "product_name": "NPK 16-16-8",
+            "amount": 2.0,
+            "amount_unit": "kg",
+            "basis": "per_tree",
+        },
+    )
+
+    with pytest.raises(EventValidationError):
+        propose_event(db_session, proposal)
+
+# -------------------------------------------------------------------
+# 10. An event cannot end before it starts.
+# -------------------------------------------------------------------
+def test_occurred_end_before_start_is_rejected(db_session):
+    unit_a, _ = make_two_units(db_session)
+
+    proposal = EventProposal(
+        management_unit_id=unit_a.id,
+        event_type="fertilizer_application",
+        occurred_start=dt(10),
+        occurred_end=dt(9),
+        source="farmer_confirmed",
+        payload={
+            "product_name": "NPK 16-16-8",
+            "amount": 2.0,
+            "amount_unit": "kg",
+            "basis": "per_tree",
+        },
+    )
+    # The ingestion layer must reject impossible event timing.
+    with pytest.raises(EventValidationError):
+        propose_event(db_session, proposal)
+
+# -------------------------------------------------------------------
+# 11. A correction on an event cannot reassign that event to another crop cycle 
+# to preserve crop-cycle identity consistency.
+# -------------------------------------------------------------------
+def test_correction_cannot_change_crop_cycle(db_session):
+    unit_a, _ = make_two_units(db_session)
+
+    cycle_a = CropCycle(
+        management_unit_id=unit_a.id,
+        crop="durian",
+        cultivar="Ri6",
+    )
+
+    cycle_b = CropCycle(
+        management_unit_id=unit_a.id,
+        crop="durian",
+        cultivar="Monthong",
+    )
+
+    db_session.add_all([cycle_a, cycle_b])
+    db_session.flush()
+
+    original = EventProposal(
+        management_unit_id=unit_a.id,
+        crop_cycle_id=cycle_a.id,
+        event_type="fertilizer_application",
+        occurred_start=dt(10),
+        source="farmer_confirmed",
+        payload={
+            "product_name": "NPK A",
+            "amount": 2.0,
+            "amount_unit": "kg",
+            "basis": "per_tree",
+        },
+    )
+
+    original_event = commit_confirmed_event(
+        db_session,
+        propose_event(db_session, original),
+        confirmed=True,
+    )
+
+    correction = EventProposal(
+        management_unit_id=unit_a.id,
+        crop_cycle_id=cycle_b.id,
+        event_type="fertilizer_application",
+        occurred_start=dt(10),
+        source="farmer_correction",
+        payload={
+            "product_name": "NPK A",
+            "amount": 1.5,
+            "amount_unit": "kg",
+            "basis": "per_tree",
+        },
+        supersedes_id=original_event.id,
+    )
+
+    with pytest.raises(EventValidationError):
+        propose_event(db_session, correction)

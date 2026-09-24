@@ -41,23 +41,27 @@ def commit_confirmed_event(
     """
 
     if not confirmed:
-        raise ValueError(
-            "Event must be explicitly confirmed before commit."
-        )
+        raise ValueError("Event must be explicitly confirmed before commit.")
+
+    raw_proposal = EventProposal(
+        **proposal.model_dump(exclude={"normalized_payload"})
+    )
+
+    validated = validate_event_proposal(session, raw_proposal)
 
     event = Event(
-        management_unit_id=proposal.management_unit_id,
-        crop_cycle_id=proposal.crop_cycle_id,
-        event_type=proposal.event_type,
-        occurred_start=proposal.occurred_start,
-        occurred_end=proposal.occurred_end,
+        management_unit_id=validated.management_unit_id,
+        crop_cycle_id=validated.crop_cycle_id,
+        event_type=validated.event_type,
+        occurred_start=validated.occurred_start,
+        occurred_end=validated.occurred_end,
 
         # System-controlled knowledge timestamp.
         recorded_at=datetime.datetime.now(UTC),
 
-        source=proposal.source,
-        payload=proposal.normalized_payload,
-        supersedes_id=proposal.supersedes_id,
+        source=validated.source,
+        payload=validated.normalized_payload,
+        supersedes_id=validated.supersedes_id,
     )
 
     session.add(event)
