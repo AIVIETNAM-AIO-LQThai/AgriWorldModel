@@ -92,6 +92,7 @@ def generate_structured_decision(
     raw_response = provider.generate_json(
         system_prompt=DECISION_SYSTEM_PROMPT,
         payload=payload,
+        response_model=DecisionRecommendation,
     )
 
     try:

@@ -9,6 +9,7 @@ from agriworldmodel.decisions.reasoning_packet import DecisionReasoningPacket, D
 from agriworldmodel.decisions.requirements import MissingDataReport
 from agriworldmodel.decisions.schemas import DecisionContext, DecisionType
 from agriworldmodel.llm.service import LLMReasoningError, generate_structured_decision
+from agriworldmodel.llm.schemas import DecisionRecommendation
 from agriworldmodel.retrieval.schemas import RerankedChunk
 from agriworldmodel.state.derived import NutrientState
 from agriworldmodel.state.schemas import FarmStateSnapshot
@@ -29,20 +30,23 @@ class FakeProvider:
         self.calls = 0
         self.last_system_prompt = None
         self.last_payload = None
+        self.last_response_model = None
 
     def generate_json(
-        self, *, system_prompt: str, payload: dict,
+        self, *, system_prompt: str, payload: dict, response_model,
     ) -> dict:
         self.calls += 1
         self.last_system_prompt = system_prompt
         self.last_payload = payload
+        self.last_response_model = response_model
+
         return self.response
 
 class ExplodingProvider:
     model_name = "must-not-run"
 
     def generate_json(
-        self, *, system_prompt: str, payload: dict,
+        self, *, system_prompt: str, payload: dict, response_model
     ) -> dict:
         raise AssertionError("LLM must not run for a blocked packet.")
 
@@ -314,6 +318,7 @@ def test_ready_packet_calls_provider():
     assert result.prompt_version == "n1-v1"
     assert result.recommendation.evidence_chunk_ids == [chunk_id]
     assert result.recommendation.calculated_fact_names == ["n_kg_total"]
+    assert provider.last_response_model is DecisionRecommendation
 
     # Verify deterministic data actually reaches
     # the provider boundary.
