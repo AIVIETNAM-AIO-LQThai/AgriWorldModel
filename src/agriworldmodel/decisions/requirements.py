@@ -1,4 +1,5 @@
 from typing import Any
+import uuid
 
 from pydantic import BaseModel
 
@@ -19,13 +20,16 @@ class RequirementSpec(BaseModel):
     field_path: str
     description: str
     required: bool = True
-    source_ref: str | None = None
+
+    # REQUIREMENT assertion that justifies this rule.
+    assertion_id: uuid.UUID | None = None
 
 class MissingDataItem(BaseModel):
     requirement_id: str
     field_path: str
     description: str
     required: bool
+    assertion_id: uuid.UUID | None = None
 
 class MissingDataReport(BaseModel):
     decision_type: DecisionType
@@ -34,15 +38,12 @@ class MissingDataReport(BaseModel):
     missing_required: list[MissingDataItem]
     missing_optional: list[MissingDataItem]
 
-
 def _resolve_field_path(
     obj: Any, field_path: str
 ) -> Any:
     """
     Resolve a dotted field path such as:
-
         nutrient_state.last_application.product_name
-
     against a Pydantic model or dictionary.
     """
     current = obj
@@ -111,6 +112,7 @@ def evaluate_requirements(
             field_path=requirement.field_path,
             description=requirement.description,
             required=requirement.required,
+            assertion_id=requirement.assertion_id,
         )
 
         if requirement.required:
