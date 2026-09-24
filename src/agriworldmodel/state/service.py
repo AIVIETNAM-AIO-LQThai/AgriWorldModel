@@ -42,12 +42,7 @@ def get_visible_events(
     if crop_cycle_id is not None:
         conditions.append(Event.crop_cycle_id == crop_cycle_id)
 
-    stmt = select(Event).where(
-        Event.management_unit_id == management_unit_id,
-        Event.occurred_start <= effective_at,
-        Event.recorded_at <= knowledge_cutoff,
-        ~has_known_superseder,
-    ).order_by(
+    stmt = select(Event).where(*conditions).order_by(
         Event.occurred_start.asc(),
         Event.recorded_at.asc()
     )
