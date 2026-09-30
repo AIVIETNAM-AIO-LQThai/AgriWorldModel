@@ -54,3 +54,24 @@ class HybridRetrievedChunk(BaseModel):
 class RerankedChunk(HybridRetrievedChunk):
     hybrid_rank: int
     rerank_score: float
+
+class ExtractedDocumentChunk(BaseModel):
+    """
+    One deterministic chunk extracted from a source document
+    before database persistence.
+    """
+    page_number: int = Field(ge=1)
+    page_chunk_index: int = Field(ge=0)
+
+    content: str = Field(min_length=1)
+    locator: str = Field(min_length=1)
+
+class DocumentIngestionResult(BaseModel):
+    """
+    Result of ingesting one document into the retrieval corpus.
+    """
+    source_id: uuid.UUID
+    chunk_ids: list[uuid.UUID]
+
+    chunk_count: int
+    page_count_with_text: int
