@@ -154,3 +154,43 @@ def test_retrieval_returns_source_provenance(db_session):
     assert result.source_id == source.id
     assert result.source_title == "Fixture Provenance Source"
     assert result.locator == "Section 4.2"
+
+def test_lexical_retrieval_handles_natural_language_question(db_session):
+    source = make_source(db_session)
+
+    relevant = register_knowledge_chunk(
+        db_session,
+        KnowledgeChunkCreate(
+            source_id=source.id,
+            chunk_index=0,
+            content="Organic manure and foliar fertilization improved soil fertility and fruit yield in durian.",
+            locator="p. 5",
+            crop="durian",
+        ),
+    )
+
+    register_knowledge_chunk(
+        db_session,
+        KnowledgeChunkCreate(
+            source_id=source.id,
+            chunk_index=1,
+            content="Irrigation scheduling information for an unrelated fixture.",
+            locator="p. 6",
+            crop="durian",
+        ),
+    )
+
+    results = search_lexical_chunks(
+        db_session,
+        query_text=(
+            "How do organic manure and foliar fertilization "
+            "affect soil fertility, leaf nutrient status, "
+            "fruit yield, and physiological disorders "
+            "in durian?"
+        ),
+        crop="durian",
+    )
+
+    assert results
+    assert results[0].chunk_id == relevant.id
+    assert results[0].score > 0

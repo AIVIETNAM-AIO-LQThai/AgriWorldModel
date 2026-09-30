@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Quoc Thai", email = "quoclethai428@gmail.com" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "alembic>=1.20.0",
     "anthropic>=1.8.0",
@@ -28,7 +28,7 @@ dependencies = [
     "sentence-transformers>=6.1.0",
     "sqlalchemy>=2.0.54",
     "tenacity>=9.1.4",
-    "torch>=2.14.0",
+    "torch==2.14.0+cu126",
     "underthesea>=9.5.0",
     "uvicorn[standard]>=0.53.0",
 ]
@@ -48,3 +48,11 @@ dev = [
     "pytest-asyncio>=1.4.0",
     "ruff>=0.16.8",
 ]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

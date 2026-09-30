@@ -19,6 +19,8 @@ htmlcov/
 
 # Company/private data
 data/company/
+# Downloaded research corpus
+data/evidence/
 
 # OS
 .DS_Store

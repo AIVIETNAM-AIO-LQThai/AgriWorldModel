@@ -5,6 +5,78 @@ from agriworldmodel.db.models.evidence_source import EvidenceSource
 from agriworldmodel.db.models.knowledge_chunk import KnowledgeChunk
 from agriworldmodel.retrieval.schemas import RetrievedChunk
 
+import re
+
+
+_ENGLISH_QUERY_STOPWORDS = {
+    "a",
+    "an",
+    "and",
+    "are",
+    "as",
+    "at",
+    "be",
+    "by",
+    "do",
+    "does",
+    "for",
+    "from",
+    "how",
+    "in",
+    "is",
+    "it",
+    "of",
+    "on",
+    "or",
+    "the",
+    "to",
+    "was",
+    "were",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who",
+    "why",
+    "with",
+}
+
+
+def _build_lexical_query(
+    query_text: str,
+) -> str:
+    """
+    Convert a natural-language question into a
+    deterministic high-recall lexical query.
+
+    The lexical branch is intended to provide recall.
+    Dense retrieval and reranking provide semantic precision.
+    """
+
+    raw_terms = re.findall(
+        r"[^\W_]+",
+        query_text.lower(),
+        flags=re.UNICODE,
+    )
+
+    terms: list[str] = []
+    seen: set[str] = set()
+
+    for term in raw_terms:
+        if len(term) < 2:
+            continue
+
+        if term in _ENGLISH_QUERY_STOPWORDS:
+            continue
+
+        if term in seen:
+            continue
+
+        seen.add(term)
+        terms.append(term)
+
+    return " OR ".join(terms)
+
 def search_lexical_chunks(
     session: Session, *,
     query_text: str,
@@ -24,8 +96,13 @@ def search_lexical_chunks(
     if not query_text.strip():
         return []
 
+    lexical_query = _build_lexical_query(query_text)
+
+    if not lexical_query:
+        return []
+
     ts_query = func.websearch_to_tsquery(
-        "simple", query_text,
+        "simple", lexical_query,
     )
 
     rank = func.ts_rank_cd(
