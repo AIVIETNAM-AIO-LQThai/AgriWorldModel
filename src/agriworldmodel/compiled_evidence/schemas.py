@@ -214,9 +214,12 @@ class ArmResult(BaseModel):
     dispersion_type: str | None = None
     dispersion_value: float | None = None
 
-    sample_size: int | None = Field(
-        default=None, ge=1,
-    )
+    sample_size: int | None = Field(default=None, ge=1)
+    significance_group: str | None = None
+
+    # Statistical comparison reported for the site/season/outcome.
+    # Examples: "*", "**", "***", "ns"
+    comparison_significance: str | None = None
 
     # Example:
     # {
