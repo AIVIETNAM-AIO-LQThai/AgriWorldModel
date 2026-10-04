@@ -1,0 +1,374 @@
+{
+  "schema_version": "compiled-study-1",
+  "study_id": "dang-2025-durian-om-ff",
+
+  "source": {
+    "source_key": "dang-2025-plants-14-1185",
+    "title": "Combining Organic and Foliar Fertilization to Enhance Soil Fertility and Mitigate Physiological Disorders of Durian (Durio zibethinus Murr.) Fruit in the Tropics",
+    "year": 2025,
+    "doi": "10.3390/plants14081185",
+    "citation": "Dang LV, Quyen NK, Ngoc NP, Ly LM, Thao PTP, Hung NN. Plants. 2025;14(8):1185.",
+    "provenance_note": "Compiled manually from the published article. No model-generated values are treated as source evidence."
+  },
+
+  "design": {
+    "design_type": "randomized complete block design",
+    "randomization_unit": null,
+    "blocking": "Randomized complete block design conducted separately in each of three durian orchards; four treatments; three replicates per treatment; 12 durian trees per treatment.",
+    "seasons": [
+      "2022-2023",
+      "2023-2024"
+    ],
+    "notes": "The paper states the randomized complete block design and replication structure but does not explicitly identify the physical randomization unit.",
+    "provenance": {
+      "provenance_type": "author_method",
+      "locator": "Section 4.3 Experimental Design"
+    }
+  },
+
+  "sites": [
+    {
+      "site_id": "D1",
+      "name": "Phong Dien District, Can Tho City",
+      "region": "Vietnamese Mekong Delta",
+      "country": "Vietnam",
+      "latitude": 10.02,
+      "longitude": 105.627222,
+      "notes": "Reported coordinates: 10°01′12″ N, 105°37′38″ E. Soil classified as alluvial.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.1 Study Location, Soil, Plants, and Climate"
+      }
+    },
+    {
+      "site_id": "D2",
+      "name": "Chau Thanh District, Hau Giang Province",
+      "region": "Vietnamese Mekong Delta",
+      "country": "Vietnam",
+      "latitude": 9.954167,
+      "longitude": 105.755833,
+      "notes": "Reported coordinates: 9°57′15″ N, 105°45′21″ E. Soil classified as alluvial.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.1 Study Location, Soil, Plants, and Climate"
+      }
+    },
+    {
+      "site_id": "D3",
+      "name": "Phung Hiep District, Hau Giang Province",
+      "region": "Vietnamese Mekong Delta",
+      "country": "Vietnam",
+      "latitude": 9.914167,
+      "longitude": 105.725278,
+      "notes": "Reported coordinates: 9°54′51″ N, 105°43′31″ E. Soil classified as alluvial.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.1 Study Location, Soil, Plants, and Climate"
+      }
+    }
+  ],
+
+  "population": {
+    "crop": "durian",
+    "cultivar": "Ri6",
+    "tree_age_years_min": 6.0,
+    "tree_age_years_max": 6.0,
+    "spacing": "6 m x 6 m",
+    "notes": "Selected orchards were approximately 0.4-0.5 ha with 110-140 trees. Trees used for the experiment had similar trunk and stem diameters. Pest and weed control were applied uniformly.",
+    "provenance": {
+      "provenance_type": "author_method",
+      "locator": "Section 4.1 Study Location, Soil, Plants, and Climate"
+    }
+  },
+
+  "interventions": [
+    {
+      "intervention_id": "int-background-npk",
+      "name": "Common background NPK fertilization",
+      "intervention_type": "soil fertilizer",
+      "product_name": "NPK 15-15-15 complex fertilizer",
+      "composition_text": "15-15-15 N-P-K complex fertilizer",
+      "dose_text": "0.45 kg N, 0.45 kg P, and 0.45 kg K per tree",
+      "dose_value": null,
+      "dose_unit": null,
+      "dose_basis": "per_tree",
+      "application_mode": "topdressing",
+      "timing_text": "30% at 25 days after fruit set; 40% at 50 days after fruit set; 30% at 35 days before fruit harvest",
+      "frequency_text": "Three applications during fruit development",
+      "notes": "Applied uniformly to all treatment arms; therefore it is background management rather than the experimental contrast.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.3 Experimental Design"
+      }
+    },
+
+    {
+      "intervention_id": "int-om",
+      "name": "Organic manure",
+      "intervention_type": "soil amendment",
+      "product_name": "Commercial organic fertilizer from PPE Co., Ltd.",
+      "composition_text": "Sugarcane filter cake was the primary feedstock. The paper reports total C 15.4%, porosity 76.2%, exchangeable K 15.0 cmolc kg^-1, exchangeable Ca 61.6 cmolc kg^-1, and available P 3.6 g kg^-1, with nutrient composition attributed to a previous study.",
+      "dose_text": "5 Mg ha^-1 season^-1",
+      "dose_value": 5.0,
+      "dose_unit": "Mg ha^-1 season^-1",
+      "dose_basis": "per_hectare_per_season",
+      "application_mode": "topdressing",
+      "timing_text": "15 days after fruit set",
+      "frequency_text": "One application per season as described",
+      "notes": "Commercial organic manure produced in Can Tho City, Vietnam.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Sections 4.2 and 4.3"
+      }
+    },
+
+    {
+      "intervention_id": "int-ff",
+      "name": "Foliar fertilization",
+      "intervention_type": "foliar fertilizer",
+      "product_name": "TANO 708",
+      "composition_text": "Authors report, according to the producer, 4% K2O and 4.3% Ca.",
+      "dose_text": null,
+      "dose_value": null,
+      "dose_unit": null,
+      "dose_basis": null,
+      "application_mode": "foliar spray",
+      "timing_text": "40, 60, and 80 days after fruit set",
+      "frequency_text": "Three sprays per season",
+      "notes": "The article describes timing and product composition but does not state the applied spray dose/concentration in Sections 4.2-4.3.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Sections 4.2 and 4.3"
+      }
+    }
+  ],
+
+  "arms": [
+    {
+      "arm_id": "arm-control",
+      "label": "Control",
+      "intervention_ids": [
+        "int-background-npk"
+      ],
+      "is_control": true,
+      "notes": "Control means unamended with OM or FF; it still received the common NPK program.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.3 Experimental Design"
+      }
+    },
+
+    {
+      "arm_id": "arm-om",
+      "label": "OM",
+      "intervention_ids": [
+        "int-background-npk",
+        "int-om"
+      ],
+      "is_control": false,
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.3 Experimental Design"
+      }
+    },
+
+    {
+      "arm_id": "arm-ff",
+      "label": "FF",
+      "intervention_ids": [
+        "int-background-npk",
+        "int-ff"
+      ],
+      "is_control": false,
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.3 Experimental Design"
+      }
+    },
+
+    {
+      "arm_id": "arm-om-ff",
+      "label": "OM + FF",
+      "intervention_ids": [
+        "int-background-npk",
+        "int-om",
+        "int-ff"
+      ],
+      "is_control": false,
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.3 Experimental Design"
+      }
+    }
+  ],
+
+  "outcomes": [
+    {
+      "outcome_id": "outcome-soil-ph",
+      "name": "Soil pH",
+      "unit": "pH",
+      "measurement_method": "Digital pH meter using a 1:2.5 soil-to-water ratio",
+      "measurement_time": "Fruit harvesting period",
+      "notes": "Soil sampled at 0-20 cm depth.",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-soc",
+      "name": "Soil organic carbon",
+      "unit": "g C kg^-1",
+      "measurement_time": "Fruit harvesting period",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-available-p",
+      "name": "Available phosphorus",
+      "unit": "mg P kg^-1",
+      "measurement_time": "Fruit harvesting period",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "name": "Soil exchangeable potassium",
+      "unit": "cmolc 100 g^-1",
+      "measurement_time": "Fruit harvesting period",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "name": "Soil exchangeable calcium",
+      "unit": "cmolc 100 g^-1",
+      "measurement_time": "Fruit harvesting period",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-leaf-k",
+      "name": "Leaf potassium concentration",
+      "unit": "g kg^-1",
+      "measurement_method": "Atomic Absorption Spectrometer at 766.5 nm",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-leaf-ca",
+      "name": "Leaf calcium concentration",
+      "unit": "g kg^-1",
+      "measurement_method": "Atomic Absorption Spectrometer at 422.7 nm",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.4 Soil and Durian Leaf Collection and Analysis"
+      }
+    },
+    {
+      "outcome_id": "outcome-fruit-yield",
+      "name": "Fruit yield",
+      "unit": "kg tree^-1",
+      "measurement_method": "Fresh weight of all harvested durian fruit",
+      "measurement_time": "Fruit harvesting period",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    },
+    {
+      "outcome_id": "outcome-peel-proportion",
+      "name": "Fruit peel proportion",
+      "unit": "%",
+      "measurement_method": "Fruit separated into peel, seed, and aril components and weighed",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    },
+    {
+      "outcome_id": "outcome-seed-proportion",
+      "name": "Fruit seed proportion",
+      "unit": "%",
+      "measurement_method": "Fruit separated into peel, seed, and aril components and weighed",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    },
+    {
+      "outcome_id": "outcome-aril-proportion",
+      "name": "Fruit aril proportion",
+      "unit": "%",
+      "measurement_method": "Fruit separated into peel, seed, and aril components and weighed",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    },
+    {
+      "outcome_id": "outcome-aril-b-star",
+      "name": "Aril b* color value",
+      "unit": null,
+      "measurement_method": "CR-20 Color Reader",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    },
+    {
+      "outcome_id": "outcome-tss",
+      "name": "Total soluble solids",
+      "unit": "%",
+      "measurement_method": "Atago PAL-1 Pocket Refractometer",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    },
+    {
+      "outcome_id": "outcome-pd-rate",
+      "name": "Physiological disorder rate",
+      "unit": "%",
+      "measurement_method": "Visual evaluation after fruit opening; number of flesh components exhibiting PD divided by total flesh components",
+      "provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.5 Evaluation of Fruit Yield and Quality Characteristics"
+      }
+    }
+  ],
+
+  "arm_results": [],
+  "contrasts": [],
+  "associations": [],
+  "interpretations": [],
+  "recommendations": [],
+
+  "flags": [
+    {
+      "record_id": "flag-ff-dose-missing",
+      "flag_type": "missing_dose_information",
+      "detail": "The article identifies TANO 708, its reported K2O/Ca composition, and the three application times, but the applied spray dose or concentration is not stated in Sections 4.2-4.3.",
+      "related_record_ids": [
+        "int-ff"
+      ],
+      "locator": "Sections 4.2 and 4.3"
+    }
+  ],
+
+  "metadata": {
+    "compilation_method": "manual",
+    "compilation_scope": "study design, sites, population, interventions, arms, and outcome definitions only",
+    "results_compiled": false
+  }
+}

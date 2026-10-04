@@ -9,13 +9,13 @@ from pydantic import BaseModel, Field, model_validator
 # Epistemic provenance
 # -------------------------------------------------------------------
 class ProvenanceType(str, enum.Enum):
+    AUTHOR_METHOD = "author_method"
     AUTHOR_RESULT = "author_result"
     AUTHOR_INTERPRETATION = "author_interpretation"
     AUTHOR_RECOMMENDATION = "author_recommendation"
     EXTERNAL_CITED_CLAIM = "external_cited_claim"
     OUR_DERIVED = "our_derived"
     UNKNOWN = "unknown"
-
 
 class EvidenceFlagType(str, enum.Enum):
     REPORTED_INCONSISTENCY = "reported_inconsistency"
@@ -54,6 +54,7 @@ class Provenance(BaseModel):
     @model_validator(mode="after")
     def validate_provenance(self):
         source_bound = {
+            ProvenanceType.AUTHOR_METHOD,
             ProvenanceType.AUTHOR_RESULT,
             ProvenanceType.AUTHOR_INTERPRETATION,
             ProvenanceType.AUTHOR_RECOMMENDATION,
@@ -122,14 +123,13 @@ class StudyDesign(BaseModel):
 
 class StudySite(BaseModel):
     site_id: str = Field(min_length=1)
-
     name: str | None = None
     region: str | None = None
     country: str | None = None
-
     notes: str | None = None
-
     provenance: Provenance
+    latitude: float | None = None
+    longitude: float | None = None
 
 
 class StudyPopulation(BaseModel):
@@ -150,7 +150,6 @@ class StudyPopulation(BaseModel):
 # -------------------------------------------------------------------
 # Intervention structure
 # -------------------------------------------------------------------
-
 class InterventionProtocol(BaseModel):
     intervention_id: str = Field(min_length=1)
 
@@ -160,6 +159,7 @@ class InterventionProtocol(BaseModel):
     product_name: str | None = None
     composition_text: str | None = None
 
+    dose_text: str | None = None
     dose_value: float | None = None
     dose_unit: str | None = None
     dose_basis: str | None = None
@@ -189,7 +189,6 @@ class StudyArm(BaseModel):
 # -------------------------------------------------------------------
 # Outcomes
 # -------------------------------------------------------------------
-
 class OutcomeDefinition(BaseModel):
     outcome_id: str = Field(min_length=1)
     name: str = Field(min_length=1)
@@ -232,7 +231,6 @@ class ArmResult(BaseModel):
 # -------------------------------------------------------------------
 # Comparisons / effects
 # -------------------------------------------------------------------
-
 class Contrast(BaseModel):
     record_id: str = Field(min_length=1)
 
@@ -276,7 +274,6 @@ class Association(BaseModel):
 # -------------------------------------------------------------------
 # Narrative scientific objects
 # -------------------------------------------------------------------
-
 class Interpretation(BaseModel):
     record_id: str = Field(min_length=1)
 
@@ -289,32 +286,23 @@ class Interpretation(BaseModel):
 
 class Recommendation(BaseModel):
     record_id: str = Field(min_length=1)
-
     statement: str = Field(min_length=1)
-
     scope: str | None = None
-
     related_record_ids: list[str] = Field(default_factory=list)
-
     provenance: Provenance
 
 
 class EvidenceFlag(BaseModel):
     record_id: str = Field(min_length=1)
-
     flag_type: EvidenceFlagType
-
     detail: str = Field(min_length=1)
-
     related_record_ids: list[str] = Field(default_factory=list)
-
     locator: str | None = None
 
 
 # -------------------------------------------------------------------
 # Complete compiled study
 # -------------------------------------------------------------------
-
 class CompiledStudy(BaseModel):
     schema_version: str = "compiled-study-1"
 
