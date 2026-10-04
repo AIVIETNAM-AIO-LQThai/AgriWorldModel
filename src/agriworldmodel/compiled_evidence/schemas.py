@@ -243,8 +243,11 @@ class ArmResult(BaseModel):
     dispersion_value: float | None = None
 
     sample_size: int | None = Field(default=None, ge=1)
-    significance_group: str | None = None
 
+    # Transitional compilation fields.
+    # In the canonical compiled artifact these should be
+    # None after migration to ComparisonFamily.
+    significance_group: str | None = None
     # Statistical comparison reported for the site/season/outcome.
     # Examples: "*", "**", "***", "ns"
     comparison_significance: str | None = None
@@ -257,6 +260,50 @@ class ArmResult(BaseModel):
     context: dict[str, str] = Field(default_factory=dict)
 
     provenance: Provenance
+
+class ComparisonFamily(BaseModel):
+    record_id: str = Field(min_length=1)
+    outcome_id: str = Field(min_length=1)
+
+    # Exact ArmResult records participating in this
+    # treatment-comparison family.
+    member_arm_result_ids: list[str] = Field(min_length=2)
+
+    # The p-value marker printed in the source table,
+    # e.g. "*", "**", "***", or "ns".
+    #
+    # We intentionally do NOT infer which omnibus
+    # statistical test produced this marker.
+    reported_family_significance_marker: (str | None) = None
+    overall_test_method: str | None = None
+    overall_test_method_status: ReportStatus = ReportStatus.NOT_COMPILED
+
+    # Method explicitly reported in Section 4.6.
+    post_hoc_method: str | None = None
+
+    post_hoc_alpha: float | None = Field(
+        default=None,
+        gt=0.0,
+        lt=1.0,
+    )
+
+    # Example:
+    # {
+    #     "arm-control": "a",
+    #     "arm-om": "b",
+    #     "arm-ff": "b",
+    #     "arm-om-ff": "c",
+    # }
+    group_letters_by_arm: dict[str, str] = Field(default_factory=dict)
+
+    group_letter_semantics: str | None = None
+
+    context: dict[str, str] = Field(default_factory=dict)
+
+    # Table cells / p-value row / letters.
+    result_provenance: Provenance
+    # Statistical method reported in Section 4.6.
+    method_provenance: Provenance
 
 
 # -------------------------------------------------------------------
@@ -356,7 +403,6 @@ class CompiledStudy(BaseModel):
     design: StudyDesign
 
     sites: list[StudySite] = Field(default_factory=list)
-
     population: StudyPopulation
 
     interventions: list[InterventionProtocol] = Field(default_factory=list)
@@ -364,15 +410,12 @@ class CompiledStudy(BaseModel):
     arms: list[StudyArm] = Field(default_factory=list)
 
     outcomes: list[OutcomeDefinition] = Field(default_factory=list)
-
     arm_results: list[ArmResult] = Field(default_factory=list)
-
+    comparison_families: list[ComparisonFamily] = Field(default_factory=list)
     contrasts: list[Contrast] = Field(default_factory=list)
 
     associations: list[Association] = Field(default_factory=list)
-
     interpretations: list[Interpretation] = Field(default_factory=list)
-
     recommendations: list[Recommendation] = Field(default_factory=list)
 
     flags: list[EvidenceFlag] = Field(default_factory=list)
@@ -412,6 +455,11 @@ class CompiledStudy(BaseModel):
             | {
                 item.record_id for item in self.flags
             }
+            | {
+                item.record_id
+                for item
+                in self.comparison_families
+            }
         )
 
         all_ids = (
@@ -431,6 +479,7 @@ class CompiledStudy(BaseModel):
             + len(self.interpretations)
             + len(self.recommendations)
             + len(self.flags)
+            + len(self.comparison_families)
         )
 
         if len(all_ids) != expected_count:
@@ -465,6 +514,121 @@ class CompiledStudy(BaseModel):
             result.record_id: result
             for result in self.arm_results
         }
+
+        family_keys: set[
+            tuple[str | None, ...]
+        ] = set()
+
+        for family in self.comparison_families:
+            if (
+                family.outcome_id
+                not in outcome_ids
+            ):
+                raise ValueError(
+                    f"Comparison family "
+                    f"{family.record_id} references "
+                    "an unknown outcome."
+                )
+
+            member_ids = (
+                family.member_arm_result_ids
+            )
+
+            if (
+                len(member_ids)
+                != len(set(member_ids))
+            ):
+                raise ValueError(
+                    f"Comparison family "
+                    f"{family.record_id} contains "
+                    "duplicate member results."
+                )
+
+            try:
+                members = [
+                    result_by_id[result_id]
+                    for result_id in member_ids
+                ]
+            except KeyError as exc:
+                raise ValueError(
+                    f"Comparison family "
+                    f"{family.record_id} must "
+                    "reference ArmResult records."
+                ) from exc
+
+            for result in members:
+                if (
+                    result.outcome_id
+                    != family.outcome_id
+                ):
+                    raise ValueError(
+                        f"Comparison family "
+                        f"{family.record_id} "
+                        "mixes outcomes."
+                    )
+
+            # Every member must belong to the
+            # same source-table stratum.
+            for key in ("table", "site", "season"):
+                member_values = {
+                    result.context.get(key) for result in members
+                }
+
+                if len(member_values) != 1:
+                    raise ValueError(
+                        f"Comparison family "
+                        f"{family.record_id} mixes "
+                        f"{key} strata."
+                    )
+
+                member_value = next(iter(member_values))
+
+                if family.context.get(key) != member_value:
+                    raise ValueError(
+                        f"Comparison family "
+                        f"{family.record_id} "
+                        f"context does not match "
+                        f"member {key}."
+                    )
+
+            member_arm_ids = {
+                result.arm_id for result in members
+            }
+
+            if (
+                set(family.group_letters_by_arm) != member_arm_ids
+            ):
+                raise ValueError(
+                    f"Comparison family "
+                    f"{family.record_id} group "
+                    "letters must match its "
+                    "member arms exactly."
+                )
+
+            family_key = (
+                family.context.get("table"),
+                family.context.get("site"),
+                family.context.get("season"),
+                family.outcome_id,
+            )
+
+            if family_key in family_keys:
+                raise ValueError(
+                    f"Duplicate comparison family for stratum {family_key}."
+                )
+
+            family_keys.add(family_key)
+
+            if (
+                family.overall_test_method_status == ReportStatus.NOT_REPORTED
+                and family.overall_test_method is not None
+            ):
+                raise ValueError(
+                    f"Comparison family "
+                    f"{family.record_id} cannot "
+                    "name an overall test when "
+                    "the method is NOT_REPORTED."
+                )
 
         for contrast in self.contrasts:
             if contrast.provenance.provenance_type != ProvenanceType.OUR_DERIVED:
@@ -513,8 +677,7 @@ class CompiledStudy(BaseModel):
 
             if (
                 intervention_result.outcome_id != contrast.outcome_id
-                or comparator_result.outcome_id
-                != contrast.outcome_id
+                or comparator_result.outcome_id != contrast.outcome_id
             ):
                 raise ValueError(f"Derived contrast {contrast.record_id} mixes outcomes.")
 
@@ -522,9 +685,7 @@ class CompiledStudy(BaseModel):
                 intervention_result.unit != comparator_result.unit
                 or contrast.unit != intervention_result.unit
             ):
-                raise ValueError(
-                    f"Derived contrast {contrast.record_id} mixes units."
-                )
+                raise ValueError(f"Derived contrast {contrast.record_id} mixes units.")
 
             for key in ("table", "site", "season"):
                 intervention_value = intervention_result.context.get(key)

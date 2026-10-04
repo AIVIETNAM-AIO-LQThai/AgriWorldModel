@@ -523,8 +523,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -548,8 +548,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -573,8 +573,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -598,8 +598,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -623,8 +623,8 @@
       "dispersion_type": null,
       "dispersion_value": null,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -648,8 +648,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.95,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -673,8 +673,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -698,8 +698,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -723,8 +723,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.21,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -748,8 +748,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.62,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -773,8 +773,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.49,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -798,8 +798,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.25,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -823,8 +823,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.36,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -848,8 +848,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.87,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -873,8 +873,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.67,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -898,8 +898,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.7,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -923,8 +923,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -948,8 +948,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.6,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -973,8 +973,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.57,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -998,8 +998,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1023,8 +1023,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -1048,8 +1048,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.44,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -1073,8 +1073,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1098,8 +1098,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.5,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1123,8 +1123,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -1148,8 +1148,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.8,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -1173,8 +1173,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.21,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1198,8 +1198,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.61,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1223,8 +1223,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.75,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -1248,8 +1248,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.36,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -1273,8 +1273,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.2,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1298,8 +1298,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -1323,8 +1323,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.55,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1348,8 +1348,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1373,8 +1373,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1398,8 +1398,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1423,8 +1423,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.62,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1448,8 +1448,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1473,8 +1473,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1498,8 +1498,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1523,8 +1523,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.6,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1548,8 +1548,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.55,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1573,8 +1573,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.61,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1598,8 +1598,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.2,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1623,8 +1623,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1648,8 +1648,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -1673,8 +1673,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1698,8 +1698,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.67,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -1723,8 +1723,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.08,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1749,8 +1749,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.85,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1775,8 +1775,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.62,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1801,8 +1801,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1827,8 +1827,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1853,8 +1853,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.11,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1879,8 +1879,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.7,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1905,8 +1905,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1931,8 +1931,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1957,8 +1957,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.04,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -1983,8 +1983,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.08,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2009,8 +2009,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2035,8 +2035,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2061,8 +2061,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2087,8 +2087,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2113,8 +2113,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2139,8 +2139,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2165,8 +2165,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2191,8 +2191,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2217,8 +2217,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -2243,8 +2243,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2269,8 +2269,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.32,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2295,8 +2295,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.38,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2321,8 +2321,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "*",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2347,8 +2347,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.09,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2373,8 +2373,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.1,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2399,8 +2399,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2425,8 +2425,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2451,8 +2451,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "*",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2477,8 +2477,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.09,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2503,8 +2503,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.09,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2529,8 +2529,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.32,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2555,8 +2555,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.55,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2581,8 +2581,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.04,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "*",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2607,8 +2607,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.09,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2633,8 +2633,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2659,8 +2659,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.74,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2685,8 +2685,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2711,8 +2711,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.04,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "*",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2737,8 +2737,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -2763,8 +2763,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.08,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2789,8 +2789,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2815,8 +2815,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.05,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2841,8 +2841,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2867,8 +2867,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2893,8 +2893,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.08,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2919,8 +2919,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2945,8 +2945,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.67,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2971,8 +2971,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -2997,8 +2997,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.04,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3023,8 +3023,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.08,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3049,8 +3049,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3075,8 +3075,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3101,8 +3101,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3127,8 +3127,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.08,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3153,8 +3153,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3179,8 +3179,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3205,8 +3205,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3231,8 +3231,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3257,8 +3257,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -3283,8 +3283,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3309,8 +3309,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.53,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3335,8 +3335,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3361,8 +3361,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3387,8 +3387,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3413,8 +3413,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3439,8 +3439,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3465,8 +3465,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.61,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3491,8 +3491,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3517,8 +3517,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.13,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3543,8 +3543,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3569,8 +3569,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.6,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3595,8 +3595,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.32,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3621,8 +3621,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3647,8 +3647,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3673,8 +3673,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3699,8 +3699,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3725,8 +3725,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3751,8 +3751,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3777,8 +3777,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -3803,8 +3803,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3829,8 +3829,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.57,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3855,8 +3855,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.6,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3881,8 +3881,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3907,8 +3907,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.11,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3933,8 +3933,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3959,8 +3959,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.8,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -3985,8 +3985,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4011,8 +4011,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4037,8 +4037,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4063,8 +4063,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.06,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4089,8 +4089,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.36,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4115,8 +4115,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.36,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4141,8 +4141,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.01,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4167,8 +4167,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.07,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4193,8 +4193,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4219,8 +4219,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.78,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4245,8 +4245,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4271,8 +4271,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4297,8 +4297,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -4323,8 +4323,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.04,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4349,8 +4349,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4375,8 +4375,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.64,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4401,8 +4401,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4427,8 +4427,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.09,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4453,8 +4453,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4479,8 +4479,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4505,8 +4505,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4531,8 +4531,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4557,8 +4557,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4583,8 +4583,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.04,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4609,8 +4609,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4635,8 +4635,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4661,8 +4661,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4687,8 +4687,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.05,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4713,8 +4713,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.03,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4739,8 +4739,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.6,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4765,8 +4765,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.85,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4791,8 +4791,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.02,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4817,8 +4817,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.13,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -4843,8 +4843,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.35,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -4868,8 +4868,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 2.03,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -4893,8 +4893,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -4918,8 +4918,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.81,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -4943,8 +4943,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.9,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -4968,8 +4968,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -4993,8 +4993,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5018,8 +5018,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.42,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5043,8 +5043,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 2.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5068,8 +5068,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.05,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5093,8 +5093,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5118,8 +5118,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.55,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5143,8 +5143,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.07,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5168,8 +5168,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.05,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5193,8 +5193,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.8,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5218,8 +5218,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.21,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2022-2023",
@@ -5243,8 +5243,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.39,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5268,8 +5268,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.43,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5293,8 +5293,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5318,8 +5318,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.35,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5343,8 +5343,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5368,8 +5368,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.75,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5393,8 +5393,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5418,8 +5418,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5443,8 +5443,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.55,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5468,8 +5468,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5493,8 +5493,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5518,8 +5518,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5543,8 +5543,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.25,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5568,8 +5568,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.27,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5593,8 +5593,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5618,8 +5618,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.23,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D1",
         "season": "2023-2024",
@@ -5643,8 +5643,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5668,8 +5668,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.82,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5693,8 +5693,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.56,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5718,8 +5718,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.86,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5743,8 +5743,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.46,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5768,8 +5768,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 2.17,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5793,8 +5793,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.26,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5818,8 +5818,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.7,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5843,8 +5843,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.69,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5868,8 +5868,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.23,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5893,8 +5893,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.67,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5918,8 +5918,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.7,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5943,8 +5943,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.54,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5968,8 +5968,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.85,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -5993,8 +5993,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -6018,8 +6018,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.83,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2022-2023",
@@ -6043,8 +6043,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.4,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6068,8 +6068,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 11.8,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6093,8 +6093,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.32,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6118,8 +6118,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.2,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6143,8 +6143,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6168,8 +6168,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.25,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6193,8 +6193,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.36,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6218,8 +6218,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.9,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6243,8 +6243,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.96,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6268,8 +6268,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.22,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6293,8 +6293,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6318,8 +6318,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.61,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6343,8 +6343,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.91,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6368,8 +6368,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.95,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6393,8 +6393,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.25,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6418,8 +6418,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.21,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D2",
         "season": "2023-2024",
@@ -6443,8 +6443,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.72,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6468,8 +6468,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.73,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6493,8 +6493,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.47,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6518,8 +6518,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.66,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6543,8 +6543,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.42,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6568,8 +6568,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.16,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6593,8 +6593,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.3,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6618,8 +6618,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.35,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6643,8 +6643,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6668,8 +6668,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.83,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6693,8 +6693,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6718,8 +6718,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.81,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6743,8 +6743,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.24,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6768,8 +6768,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.31,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6793,8 +6793,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.55,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6818,8 +6818,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2022-2023",
@@ -6843,8 +6843,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.56,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -6868,8 +6868,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.95,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -6893,8 +6893,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.36,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -6918,8 +6918,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.97,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -6943,8 +6943,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.97,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -6968,8 +6968,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.15,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -6993,8 +6993,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.31,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7018,8 +7018,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.72,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7043,8 +7043,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.79,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7068,8 +7068,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7093,8 +7093,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.61,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7118,8 +7118,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.65,
       "sample_size": 3,
-      "significance_group": "b",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7143,8 +7143,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.43,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7168,8 +7168,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 1.4,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7193,8 +7193,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.4,
       "sample_size": 3,
-      "significance_group": "a",
-      "comparison_significance": "**",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7218,8 +7218,8 @@
       "dispersion_type": "standard_deviation",
       "dispersion_value": 0.21,
       "sample_size": 3,
-      "significance_group": "c",
-      "comparison_significance": "***",
+      "significance_group": null,
+      "comparison_significance": null,
       "context": {
         "site": "D3",
         "season": "2023-2024",
@@ -7228,6 +7228,2846 @@
       "provenance": {
         "provenance_type": "author_result",
         "locator": "Table 4, D3, 2023-2024, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    }
+  ],
+  "comparison_families": [
+    {
+      "record_id": "comparison-family-table-1-d1-2022-2023-outcome-available-p",
+      "outcome_id": "outcome-available-p",
+      "member_arm_result_ids": [
+        "t1-d1-2022-2023-control-ap",
+        "t1-d1-2022-2023-om-ap",
+        "t1-d1-2022-2023-ff-ap",
+        "t1-d1-2022-2023-om-ff-ap"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, outcome-available-p; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2022-2023-outcome-soc",
+      "outcome_id": "outcome-soc",
+      "member_arm_result_ids": [
+        "t1-d1-2022-2023-control-soc",
+        "t1-d1-2022-2023-om-soc",
+        "t1-d1-2022-2023-ff-soc",
+        "t1-d1-2022-2023-om-ff-soc"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, outcome-soc; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2022-2023-outcome-soil-exchangeable-ca",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "member_arm_result_ids": [
+        "t1-d1-2022-2023-control-ca",
+        "t1-d1-2022-2023-om-ca",
+        "t1-d1-2022-2023-ff-ca",
+        "t1-d1-2022-2023-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, outcome-soil-exchangeable-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2022-2023-outcome-soil-exchangeable-k",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "member_arm_result_ids": [
+        "t1-d1-2022-2023-control-k",
+        "t1-d1-2022-2023-om-k",
+        "t1-d1-2022-2023-ff-k",
+        "t1-d1-2022-2023-om-ff-k"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, outcome-soil-exchangeable-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2022-2023-outcome-soil-ph",
+      "outcome_id": "outcome-soil-ph",
+      "member_arm_result_ids": [
+        "t1-d1-2022-2023-control-ph",
+        "t1-d1-2022-2023-om-ph",
+        "t1-d1-2022-2023-ff-ph",
+        "t1-d1-2022-2023-om-ff-ph"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, outcome-soil-ph; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2023-2024-outcome-available-p",
+      "outcome_id": "outcome-available-p",
+      "member_arm_result_ids": [
+        "t1-d1-2023-2024-control-ap",
+        "t1-d1-2023-2024-om-ap",
+        "t1-d1-2023-2024-ff-ap",
+        "t1-d1-2023-2024-om-ff-ap"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, outcome-available-p; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2023-2024-outcome-soc",
+      "outcome_id": "outcome-soc",
+      "member_arm_result_ids": [
+        "t1-d1-2023-2024-control-soc",
+        "t1-d1-2023-2024-om-soc",
+        "t1-d1-2023-2024-ff-soc",
+        "t1-d1-2023-2024-om-ff-soc"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, outcome-soc; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2023-2024-outcome-soil-exchangeable-ca",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "member_arm_result_ids": [
+        "t1-d1-2023-2024-control-ca",
+        "t1-d1-2023-2024-om-ca",
+        "t1-d1-2023-2024-ff-ca",
+        "t1-d1-2023-2024-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, outcome-soil-exchangeable-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2023-2024-outcome-soil-exchangeable-k",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "member_arm_result_ids": [
+        "t1-d1-2023-2024-control-k",
+        "t1-d1-2023-2024-om-k",
+        "t1-d1-2023-2024-ff-k",
+        "t1-d1-2023-2024-om-ff-k"
+      ],
+      "reported_family_significance_marker": "*",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, outcome-soil-exchangeable-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d1-2023-2024-outcome-soil-ph",
+      "outcome_id": "outcome-soil-ph",
+      "member_arm_result_ids": [
+        "t1-d1-2023-2024-control-ph",
+        "t1-d1-2023-2024-om-ph",
+        "t1-d1-2023-2024-ff-ph",
+        "t1-d1-2023-2024-om-ff-ph"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, outcome-soil-ph; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2022-2023-outcome-available-p",
+      "outcome_id": "outcome-available-p",
+      "member_arm_result_ids": [
+        "t1-d2-2022-2023-control-ap",
+        "t1-d2-2022-2023-om-ap",
+        "t1-d2-2022-2023-ff-ap",
+        "t1-d2-2022-2023-om-ff-ap"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, outcome-available-p; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2022-2023-outcome-soc",
+      "outcome_id": "outcome-soc",
+      "member_arm_result_ids": [
+        "t1-d2-2022-2023-control-soc",
+        "t1-d2-2022-2023-om-soc",
+        "t1-d2-2022-2023-ff-soc",
+        "t1-d2-2022-2023-om-ff-soc"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, outcome-soc; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2022-2023-outcome-soil-exchangeable-ca",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "member_arm_result_ids": [
+        "t1-d2-2022-2023-control-ca",
+        "t1-d2-2022-2023-om-ca",
+        "t1-d2-2022-2023-ff-ca",
+        "t1-d2-2022-2023-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, outcome-soil-exchangeable-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2022-2023-outcome-soil-exchangeable-k",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "member_arm_result_ids": [
+        "t1-d2-2022-2023-control-k",
+        "t1-d2-2022-2023-om-k",
+        "t1-d2-2022-2023-ff-k",
+        "t1-d2-2022-2023-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, outcome-soil-exchangeable-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2022-2023-outcome-soil-ph",
+      "outcome_id": "outcome-soil-ph",
+      "member_arm_result_ids": [
+        "t1-d2-2022-2023-control-ph",
+        "t1-d2-2022-2023-om-ph",
+        "t1-d2-2022-2023-ff-ph",
+        "t1-d2-2022-2023-om-ff-ph"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, outcome-soil-ph; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2023-2024-outcome-available-p",
+      "outcome_id": "outcome-available-p",
+      "member_arm_result_ids": [
+        "t1-d2-2023-2024-control-ap",
+        "t1-d2-2023-2024-om-ap",
+        "t1-d2-2023-2024-ff-ap",
+        "t1-d2-2023-2024-om-ff-ap"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, outcome-available-p; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2023-2024-outcome-soc",
+      "outcome_id": "outcome-soc",
+      "member_arm_result_ids": [
+        "t1-d2-2023-2024-control-soc",
+        "t1-d2-2023-2024-om-soc",
+        "t1-d2-2023-2024-ff-soc",
+        "t1-d2-2023-2024-om-ff-soc"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, outcome-soc; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2023-2024-outcome-soil-exchangeable-ca",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "member_arm_result_ids": [
+        "t1-d2-2023-2024-control-ca",
+        "t1-d2-2023-2024-om-ca",
+        "t1-d2-2023-2024-ff-ca",
+        "t1-d2-2023-2024-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, outcome-soil-exchangeable-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2023-2024-outcome-soil-exchangeable-k",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "member_arm_result_ids": [
+        "t1-d2-2023-2024-control-k",
+        "t1-d2-2023-2024-om-k",
+        "t1-d2-2023-2024-ff-k",
+        "t1-d2-2023-2024-om-ff-k"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, outcome-soil-exchangeable-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d2-2023-2024-outcome-soil-ph",
+      "outcome_id": "outcome-soil-ph",
+      "member_arm_result_ids": [
+        "t1-d2-2023-2024-control-ph",
+        "t1-d2-2023-2024-om-ph",
+        "t1-d2-2023-2024-ff-ph",
+        "t1-d2-2023-2024-om-ff-ph"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, outcome-soil-ph; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2022-2023-outcome-available-p",
+      "outcome_id": "outcome-available-p",
+      "member_arm_result_ids": [
+        "t1-d3-2022-2023-control-ap",
+        "t1-d3-2022-2023-om-ap",
+        "t1-d3-2022-2023-ff-ap",
+        "t1-d3-2022-2023-om-ff-ap"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, outcome-available-p; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2022-2023-outcome-soc",
+      "outcome_id": "outcome-soc",
+      "member_arm_result_ids": [
+        "t1-d3-2022-2023-control-soc",
+        "t1-d3-2022-2023-om-soc",
+        "t1-d3-2022-2023-ff-soc",
+        "t1-d3-2022-2023-om-ff-soc"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, outcome-soc; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2022-2023-outcome-soil-exchangeable-ca",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "member_arm_result_ids": [
+        "t1-d3-2022-2023-control-ca",
+        "t1-d3-2022-2023-om-ca",
+        "t1-d3-2022-2023-ff-ca",
+        "t1-d3-2022-2023-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, outcome-soil-exchangeable-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2022-2023-outcome-soil-exchangeable-k",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "member_arm_result_ids": [
+        "t1-d3-2022-2023-control-k",
+        "t1-d3-2022-2023-om-k",
+        "t1-d3-2022-2023-ff-k",
+        "t1-d3-2022-2023-om-ff-k"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, outcome-soil-exchangeable-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2022-2023-outcome-soil-ph",
+      "outcome_id": "outcome-soil-ph",
+      "member_arm_result_ids": [
+        "t1-d3-2022-2023-control-ph",
+        "t1-d3-2022-2023-om-ph",
+        "t1-d3-2022-2023-ff-ph",
+        "t1-d3-2022-2023-om-ff-ph"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, outcome-soil-ph; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2023-2024-outcome-available-p",
+      "outcome_id": "outcome-available-p",
+      "member_arm_result_ids": [
+        "t1-d3-2023-2024-control-ap",
+        "t1-d3-2023-2024-om-ap",
+        "t1-d3-2023-2024-ff-ap",
+        "t1-d3-2023-2024-om-ff-ap"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, outcome-available-p; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2023-2024-outcome-soc",
+      "outcome_id": "outcome-soc",
+      "member_arm_result_ids": [
+        "t1-d3-2023-2024-control-soc",
+        "t1-d3-2023-2024-om-soc",
+        "t1-d3-2023-2024-ff-soc",
+        "t1-d3-2023-2024-om-ff-soc"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, outcome-soc; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2023-2024-outcome-soil-exchangeable-ca",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "member_arm_result_ids": [
+        "t1-d3-2023-2024-control-ca",
+        "t1-d3-2023-2024-om-ca",
+        "t1-d3-2023-2024-ff-ca",
+        "t1-d3-2023-2024-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, outcome-soil-exchangeable-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2023-2024-outcome-soil-exchangeable-k",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "member_arm_result_ids": [
+        "t1-d3-2023-2024-control-k",
+        "t1-d3-2023-2024-om-k",
+        "t1-d3-2023-2024-ff-k",
+        "t1-d3-2023-2024-om-ff-k"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, outcome-soil-exchangeable-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-1-d3-2023-2024-outcome-soil-ph",
+      "outcome_id": "outcome-soil-ph",
+      "member_arm_result_ids": [
+        "t1-d3-2023-2024-control-ph",
+        "t1-d3-2023-2024-om-ph",
+        "t1-d3-2023-2024-ff-ph",
+        "t1-d3-2023-2024-om-ff-ph"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "b",
+        "arm-om": "a",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 1",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, outcome-soil-ph; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d1-2022-2023-outcome-leaf-ca",
+      "outcome_id": "outcome-leaf-ca",
+      "member_arm_result_ids": [
+        "t2-d1-2022-2023-control-ca",
+        "t2-d1-2022-2023-om-ca",
+        "t2-d1-2022-2023-ff-ca",
+        "t2-d1-2022-2023-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D1, 2022-2023, outcome-leaf-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d1-2022-2023-outcome-leaf-k",
+      "outcome_id": "outcome-leaf-k",
+      "member_arm_result_ids": [
+        "t2-d1-2022-2023-control-k",
+        "t2-d1-2022-2023-om-k",
+        "t2-d1-2022-2023-ff-k",
+        "t2-d1-2022-2023-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D1, 2022-2023, outcome-leaf-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d1-2023-2024-outcome-leaf-ca",
+      "outcome_id": "outcome-leaf-ca",
+      "member_arm_result_ids": [
+        "t2-d1-2023-2024-control-ca",
+        "t2-d1-2023-2024-om-ca",
+        "t2-d1-2023-2024-ff-ca",
+        "t2-d1-2023-2024-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D1, 2023-2024, outcome-leaf-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d1-2023-2024-outcome-leaf-k",
+      "outcome_id": "outcome-leaf-k",
+      "member_arm_result_ids": [
+        "t2-d1-2023-2024-control-k",
+        "t2-d1-2023-2024-om-k",
+        "t2-d1-2023-2024-ff-k",
+        "t2-d1-2023-2024-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D1, 2023-2024, outcome-leaf-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d2-2022-2023-outcome-leaf-ca",
+      "outcome_id": "outcome-leaf-ca",
+      "member_arm_result_ids": [
+        "t2-d2-2022-2023-control-ca",
+        "t2-d2-2022-2023-om-ca",
+        "t2-d2-2022-2023-ff-ca",
+        "t2-d2-2022-2023-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D2, 2022-2023, outcome-leaf-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d2-2022-2023-outcome-leaf-k",
+      "outcome_id": "outcome-leaf-k",
+      "member_arm_result_ids": [
+        "t2-d2-2022-2023-control-k",
+        "t2-d2-2022-2023-om-k",
+        "t2-d2-2022-2023-ff-k",
+        "t2-d2-2022-2023-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D2, 2022-2023, outcome-leaf-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d2-2023-2024-outcome-leaf-ca",
+      "outcome_id": "outcome-leaf-ca",
+      "member_arm_result_ids": [
+        "t2-d2-2023-2024-control-ca",
+        "t2-d2-2023-2024-om-ca",
+        "t2-d2-2023-2024-ff-ca",
+        "t2-d2-2023-2024-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D2, 2023-2024, outcome-leaf-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d2-2023-2024-outcome-leaf-k",
+      "outcome_id": "outcome-leaf-k",
+      "member_arm_result_ids": [
+        "t2-d2-2023-2024-control-k",
+        "t2-d2-2023-2024-om-k",
+        "t2-d2-2023-2024-ff-k",
+        "t2-d2-2023-2024-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D2, 2023-2024, outcome-leaf-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d3-2022-2023-outcome-leaf-ca",
+      "outcome_id": "outcome-leaf-ca",
+      "member_arm_result_ids": [
+        "t2-d3-2022-2023-control-ca",
+        "t2-d3-2022-2023-om-ca",
+        "t2-d3-2022-2023-ff-ca",
+        "t2-d3-2022-2023-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D3, 2022-2023, outcome-leaf-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d3-2022-2023-outcome-leaf-k",
+      "outcome_id": "outcome-leaf-k",
+      "member_arm_result_ids": [
+        "t2-d3-2022-2023-control-k",
+        "t2-d3-2022-2023-om-k",
+        "t2-d3-2022-2023-ff-k",
+        "t2-d3-2022-2023-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D3, 2022-2023, outcome-leaf-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d3-2023-2024-outcome-leaf-ca",
+      "outcome_id": "outcome-leaf-ca",
+      "member_arm_result_ids": [
+        "t2-d3-2023-2024-control-ca",
+        "t2-d3-2023-2024-om-ca",
+        "t2-d3-2023-2024-ff-ca",
+        "t2-d3-2023-2024-om-ff-ca"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D3, 2023-2024, outcome-leaf-ca; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-2-d3-2023-2024-outcome-leaf-k",
+      "outcome_id": "outcome-leaf-k",
+      "member_arm_result_ids": [
+        "t2-d3-2023-2024-control-k",
+        "t2-d3-2023-2024-om-k",
+        "t2-d3-2023-2024-ff-k",
+        "t2-d3-2023-2024-om-ff-k"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 2",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 2, D3, 2023-2024, outcome-leaf-k; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2022-2023-outcome-aril-b-star",
+      "outcome_id": "outcome-aril-b-star",
+      "member_arm_result_ids": [
+        "t4-d1-2022-2023-control-bstar",
+        "t4-d1-2022-2023-om-bstar",
+        "t4-d1-2022-2023-ff-bstar",
+        "t4-d1-2022-2023-om-ff-bstar"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, outcome-aril-b-star; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2022-2023-outcome-fruit-yield",
+      "outcome_id": "outcome-fruit-yield",
+      "member_arm_result_ids": [
+        "t4-d1-2022-2023-control-yield",
+        "t4-d1-2022-2023-om-yield",
+        "t4-d1-2022-2023-ff-yield",
+        "t4-d1-2022-2023-om-ff-yield"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, outcome-fruit-yield; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2022-2023-outcome-pd-rate",
+      "outcome_id": "outcome-pd-rate",
+      "member_arm_result_ids": [
+        "t4-d1-2022-2023-control-pd",
+        "t4-d1-2022-2023-om-pd",
+        "t4-d1-2022-2023-ff-pd",
+        "t4-d1-2022-2023-om-ff-pd"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "a",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "c"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, outcome-pd-rate; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2022-2023-outcome-tss",
+      "outcome_id": "outcome-tss",
+      "member_arm_result_ids": [
+        "t4-d1-2022-2023-control-tss",
+        "t4-d1-2022-2023-om-tss",
+        "t4-d1-2022-2023-ff-tss",
+        "t4-d1-2022-2023-om-ff-tss"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, outcome-tss; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2023-2024-outcome-aril-b-star",
+      "outcome_id": "outcome-aril-b-star",
+      "member_arm_result_ids": [
+        "t4-d1-2023-2024-control-bstar",
+        "t4-d1-2023-2024-om-bstar",
+        "t4-d1-2023-2024-ff-bstar",
+        "t4-d1-2023-2024-om-ff-bstar"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, outcome-aril-b-star; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2023-2024-outcome-fruit-yield",
+      "outcome_id": "outcome-fruit-yield",
+      "member_arm_result_ids": [
+        "t4-d1-2023-2024-control-yield",
+        "t4-d1-2023-2024-om-yield",
+        "t4-d1-2023-2024-ff-yield",
+        "t4-d1-2023-2024-om-ff-yield"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, outcome-fruit-yield; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2023-2024-outcome-pd-rate",
+      "outcome_id": "outcome-pd-rate",
+      "member_arm_result_ids": [
+        "t4-d1-2023-2024-control-pd",
+        "t4-d1-2023-2024-om-pd",
+        "t4-d1-2023-2024-ff-pd",
+        "t4-d1-2023-2024-om-ff-pd"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "a",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "c"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, outcome-pd-rate; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d1-2023-2024-outcome-tss",
+      "outcome_id": "outcome-tss",
+      "member_arm_result_ids": [
+        "t4-d1-2023-2024-control-tss",
+        "t4-d1-2023-2024-om-tss",
+        "t4-d1-2023-2024-ff-tss",
+        "t4-d1-2023-2024-om-ff-tss"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D1",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, outcome-tss; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2022-2023-outcome-aril-b-star",
+      "outcome_id": "outcome-aril-b-star",
+      "member_arm_result_ids": [
+        "t4-d2-2022-2023-control-bstar",
+        "t4-d2-2022-2023-om-bstar",
+        "t4-d2-2022-2023-ff-bstar",
+        "t4-d2-2022-2023-om-ff-bstar"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, outcome-aril-b-star; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2022-2023-outcome-fruit-yield",
+      "outcome_id": "outcome-fruit-yield",
+      "member_arm_result_ids": [
+        "t4-d2-2022-2023-control-yield",
+        "t4-d2-2022-2023-om-yield",
+        "t4-d2-2022-2023-ff-yield",
+        "t4-d2-2022-2023-om-ff-yield"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, outcome-fruit-yield; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2022-2023-outcome-pd-rate",
+      "outcome_id": "outcome-pd-rate",
+      "member_arm_result_ids": [
+        "t4-d2-2022-2023-control-pd",
+        "t4-d2-2022-2023-om-pd",
+        "t4-d2-2022-2023-ff-pd",
+        "t4-d2-2022-2023-om-ff-pd"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "a",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "c"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, outcome-pd-rate; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2022-2023-outcome-tss",
+      "outcome_id": "outcome-tss",
+      "member_arm_result_ids": [
+        "t4-d2-2022-2023-control-tss",
+        "t4-d2-2022-2023-om-tss",
+        "t4-d2-2022-2023-ff-tss",
+        "t4-d2-2022-2023-om-ff-tss"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, outcome-tss; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2023-2024-outcome-aril-b-star",
+      "outcome_id": "outcome-aril-b-star",
+      "member_arm_result_ids": [
+        "t4-d2-2023-2024-control-bstar",
+        "t4-d2-2023-2024-om-bstar",
+        "t4-d2-2023-2024-ff-bstar",
+        "t4-d2-2023-2024-om-ff-bstar"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, outcome-aril-b-star; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2023-2024-outcome-fruit-yield",
+      "outcome_id": "outcome-fruit-yield",
+      "member_arm_result_ids": [
+        "t4-d2-2023-2024-control-yield",
+        "t4-d2-2023-2024-om-yield",
+        "t4-d2-2023-2024-ff-yield",
+        "t4-d2-2023-2024-om-ff-yield"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, outcome-fruit-yield; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2023-2024-outcome-pd-rate",
+      "outcome_id": "outcome-pd-rate",
+      "member_arm_result_ids": [
+        "t4-d2-2023-2024-control-pd",
+        "t4-d2-2023-2024-om-pd",
+        "t4-d2-2023-2024-ff-pd",
+        "t4-d2-2023-2024-om-ff-pd"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "a",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "c"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, outcome-pd-rate; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d2-2023-2024-outcome-tss",
+      "outcome_id": "outcome-tss",
+      "member_arm_result_ids": [
+        "t4-d2-2023-2024-control-tss",
+        "t4-d2-2023-2024-om-tss",
+        "t4-d2-2023-2024-ff-tss",
+        "t4-d2-2023-2024-om-ff-tss"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D2",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, outcome-tss; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2022-2023-outcome-aril-b-star",
+      "outcome_id": "outcome-aril-b-star",
+      "member_arm_result_ids": [
+        "t4-d3-2022-2023-control-bstar",
+        "t4-d3-2022-2023-om-bstar",
+        "t4-d3-2022-2023-ff-bstar",
+        "t4-d3-2022-2023-om-ff-bstar"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, outcome-aril-b-star; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2022-2023-outcome-fruit-yield",
+      "outcome_id": "outcome-fruit-yield",
+      "member_arm_result_ids": [
+        "t4-d3-2022-2023-control-yield",
+        "t4-d3-2022-2023-om-yield",
+        "t4-d3-2022-2023-ff-yield",
+        "t4-d3-2022-2023-om-ff-yield"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, outcome-fruit-yield; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2022-2023-outcome-pd-rate",
+      "outcome_id": "outcome-pd-rate",
+      "member_arm_result_ids": [
+        "t4-d3-2022-2023-control-pd",
+        "t4-d3-2022-2023-om-pd",
+        "t4-d3-2022-2023-ff-pd",
+        "t4-d3-2022-2023-om-ff-pd"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "a",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "c"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, outcome-pd-rate; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2022-2023-outcome-tss",
+      "outcome_id": "outcome-tss",
+      "member_arm_result_ids": [
+        "t4-d3-2022-2023-control-tss",
+        "t4-d3-2022-2023-om-tss",
+        "t4-d3-2022-2023-ff-tss",
+        "t4-d3-2022-2023-om-ff-tss"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2022-2023"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, outcome-tss; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2023-2024-outcome-aril-b-star",
+      "outcome_id": "outcome-aril-b-star",
+      "member_arm_result_ids": [
+        "t4-d3-2023-2024-control-bstar",
+        "t4-d3-2023-2024-om-bstar",
+        "t4-d3-2023-2024-ff-bstar",
+        "t4-d3-2023-2024-om-ff-bstar"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, outcome-aril-b-star; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2023-2024-outcome-fruit-yield",
+      "outcome_id": "outcome-fruit-yield",
+      "member_arm_result_ids": [
+        "t4-d3-2023-2024-control-yield",
+        "t4-d3-2023-2024-om-yield",
+        "t4-d3-2023-2024-ff-yield",
+        "t4-d3-2023-2024-om-ff-yield"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, outcome-fruit-yield; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2023-2024-outcome-pd-rate",
+      "outcome_id": "outcome-pd-rate",
+      "member_arm_result_ids": [
+        "t4-d3-2023-2024-control-pd",
+        "t4-d3-2023-2024-om-pd",
+        "t4-d3-2023-2024-ff-pd",
+        "t4-d3-2023-2024-om-ff-pd"
+      ],
+      "reported_family_significance_marker": "***",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "a",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "c"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, outcome-pd-rate; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "comparison-family-table-4-d3-2023-2024-outcome-tss",
+      "outcome_id": "outcome-tss",
+      "member_arm_result_ids": [
+        "t4-d3-2023-2024-control-tss",
+        "t4-d3-2023-2024-om-tss",
+        "t4-d3-2023-2024-ff-tss",
+        "t4-d3-2023-2024-om-ff-tss"
+      ],
+      "reported_family_significance_marker": "**",
+      "overall_test_method": null,
+      "overall_test_method_status": "not_reported",
+      "post_hoc_method": "Duncan post hoc test",
+      "post_hoc_alpha": 0.05,
+      "group_letters_by_arm": {
+        "arm-control": "c",
+        "arm-om": "b",
+        "arm-ff": "b",
+        "arm-om-ff": "a"
+      },
+      "group_letter_semantics": "Different letters indicate significant differences among treatment means under the reported Duncan post hoc procedure at p < 0.05.",
+      "context": {
+        "table": "Table 4",
+        "site": "D3",
+        "season": "2023-2024"
+      },
+      "result_provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, outcome-tss; treatment letters and p-value row",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      },
+      "method_provenance": {
+        "provenance_type": "author_method",
+        "locator": "Section 4.6 Data Analysis",
         "source_record_ids": [],
         "derivation": null,
         "cited_reference": null,
@@ -15226,6 +18066,8 @@
         "Table 4"
       ]
     },
-    "inference_semantics_refined": true
+    "inference_semantics_refined": true,
+    "comparison_families_compiled": true,
+    "comparison_family_count": 66
   }
 }

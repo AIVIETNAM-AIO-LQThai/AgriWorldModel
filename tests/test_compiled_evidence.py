@@ -210,3 +210,101 @@ def test_derived_contrast_cannot_mix_source_arms():
         match="source arms",
     ):
         CompiledStudy.model_validate(payload)
+
+def add_valid_comparison_family(payload: dict) -> None:
+    # Comparison-family tests are intentionally
+    # isolated from derived-contrast validation.
+    payload["contrasts"] = []
+
+    for result in payload["arm_results"]:
+        result["context"] = {
+            "table": "Table X",
+            "site": "D1",
+            "season": "2026",
+        }
+
+    payload["comparison_families"] = [
+        {
+            "record_id": "family-d1-2026-pd",
+            "outcome_id": "outcome-pd",
+            "member_arm_result_ids": [
+                "result-control-pd",
+                "result-om-pd",
+            ],
+            "reported_family_significance_marker": "*",
+            "overall_test_method": None,
+            "overall_test_method_status": "not_reported",
+            "post_hoc_method": "Duncan post hoc test",
+            "post_hoc_alpha": 0.05,
+            "group_letters_by_arm": {
+                "arm-control": "a",
+                "arm-om": "b",
+            },
+            "group_letter_semantics": "Different letters indicate significant differences.",
+            "context": {
+                "table": "Table X",
+                "site": "D1",
+                "season": "2026",
+            },
+            "result_provenance": {
+                "provenance_type": "author_result",
+                "locator": "Table X",
+            },
+            "method_provenance": {
+                "provenance_type": "author_method",
+                "locator": "Methods: Data Analysis",
+            },
+        }
+    ]
+
+def test_valid_comparison_family():
+    payload = minimal_study()
+
+    add_valid_comparison_family(
+        payload
+    )
+
+    study = CompiledStudy.model_validate(
+        payload
+    )
+
+    assert (
+        len(study.comparison_families)
+        == 1
+    )
+
+
+def test_comparison_family_cannot_mix_strata():
+    payload = minimal_study()
+
+    add_valid_comparison_family(
+        payload
+    )
+
+    payload["arm_results"][1][
+        "context"
+    ]["season"] = "2027"
+
+    with pytest.raises(
+        ValidationError,
+        match="mixes season strata",
+    ):
+        CompiledStudy.model_validate(
+            payload
+        )
+
+
+def test_comparison_family_letters_must_match_arms():
+    payload = minimal_study()
+
+    add_valid_comparison_family(payload)
+
+    payload["comparison_families"][0]["group_letters_by_arm"] = {
+        "arm-control": "a",
+    }
+
+    with pytest.raises(
+        ValidationError,
+        match="group letters",
+    ):
+        CompiledStudy.model_validate(payload)
