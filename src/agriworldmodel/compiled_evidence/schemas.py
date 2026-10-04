@@ -265,9 +265,10 @@ class Association(BaseModel):
     value: float | None = None
 
     sample_size: int | None = Field(
-        default=None,
-        ge=1,
+        default=None, ge=1,
     )
+
+    significance_text: str | None = None
 
     context: dict[str, str] = Field(default_factory=dict)
 
