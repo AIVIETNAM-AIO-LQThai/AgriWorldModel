@@ -22,16 +22,13 @@ SUPPORTED_TABLES = {
 
 
 def safe_token(value: str) -> str:
-    return (
-        value.lower().replace(" ", "-").replace("+", "-").replace("/", "-")
-    )
+    return value.lower().replace(" ", "-").replace("+", "-").replace("/", "-")
 
 def main() -> None:
     payload = json.loads(PATH.read_text(encoding="utf-8"))
 
     existing = [
-        item
-        for item in payload["contrasts"]
+        item for item in payload["contrasts"]
         if item["record_id"].startswith("derived-vs-control-")
     ]
 
@@ -73,7 +70,6 @@ def main() -> None:
     contrasts = []
 
     for (table, site, season, outcome_id), arm_map in sorted(groups.items()):
-
         control = arm_map.get(CONTROL_ARM)
 
         if control is None:
@@ -84,10 +80,7 @@ def main() -> None:
             )
 
         if control["value"] is None:
-            raise RuntimeError(
-                "Control value is missing for "
-                f"{control['record_id']}"
-            )
+            raise RuntimeError(f"Control value is missing for {control['record_id']}")
 
         for intervention_arm in (INTERVENTION_ARMS):
             intervention = arm_map.get(intervention_arm)
@@ -128,22 +121,40 @@ def main() -> None:
             contrasts.append(
                 {
                     "record_id": record_id,
-
                     "intervention_arm_id": intervention_arm,
-
                     "comparator_arm_id": CONTROL_ARM,
-
                     "outcome_id": outcome_id,
 
                     "effect_type": "absolute_mean_difference",
-
                     "effect_value": round(effect_value, 10,),
 
                     "unit": intervention.get("unit"),
 
+                    "evidential_basis": (
+                        "randomized_within_block_"
+                        "arm_mean_comparison"
+                    ),
+
+                    "estimand_text": (
+                        "Difference in published "
+                        "intervention and control arm "
+                        "means within one orchard, "
+                        "season, and outcome stratum."
+                    ),
+
+                    "uncertainty_status": (
+                        "not_reconstructible_from_"
+                        "published_summaries"
+                    ),
+
                     # We deliberately do not derive
                     # SE/CI/p-values from SD values alone.
-                    "uncertainty_text": None,
+                    "uncertainty_text": (
+                        "The paper reports arm means and standard deviations, but "
+                        "the covariance/block-level information required to "
+                        "reconstruct uncertainty for this derived pairwise contrast "
+                        "is unavailable."
+                    ),
                     "significance_text": None,
 
                     "context": {
@@ -167,13 +178,24 @@ def main() -> None:
                         ),
 
                         "notes": (
-                            "Deterministic difference "
-                            "between published treatment "
-                            "and control arm means. "
-                            "No uncertainty or p-value "
-                            "is inferred."
+                            "Deterministic difference between published treatment and control arm means. "
+                            "No uncertainty or p-value is inferred."
                         ),
                     },
+
+                    "assumptions": [
+                        (
+                            "Published arm means correspond to the randomized treatment "
+                            "groups in this site-season stratum."
+                        ),
+                        (
+                            "The stored quantity is a deterministic arm-mean "
+                            "difference, not a reconstructed model-adjusted treatment effect."
+                        ),
+                        (
+                            "No standard error, confidence interval, or pairwise p-value is inferred."
+                        ),
+                    ],
                 }
             )
 

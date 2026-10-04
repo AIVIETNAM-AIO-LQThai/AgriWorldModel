@@ -112,14 +112,17 @@ def minimal_study() -> dict:
                 "intervention_arm_id": "arm-om",
                 "comparator_arm_id": "arm-control",
                 "outcome_id": "outcome-pd",
-                "effect_type": "absolute_difference",
+                "effect_type": "absolute_mean_difference",
                 "effect_value": -7.0,
-                "unit": "percentage_points",
+                "unit": "%",
+                "evidential_basis": "randomized_within_block_arm_mean_comparison",
+                "estimand_text": "Difference in published arm means within the fixture stratum.",
+                "uncertainty_status": "not_reconstructible_from_published_summaries",
                 "provenance": {
                     "provenance_type": "our_derived",
                     "source_record_ids": [
                         "result-om-pd",
-                        "result-control-pd"
+                        "result-control-pd",
                     ],
                     "derivation": (
                         "result-om-pd.value - "
@@ -186,3 +189,24 @@ def test_json_round_trip(tmp_path):
 
     assert study.source.title == "Synthetic Fixture Study"
     assert study.contrasts[0].provenance.provenance_type == ProvenanceType.OUR_DERIVED
+
+def test_derived_contrast_must_recompute_from_sources():
+    payload = minimal_study()
+    payload["contrasts"][0]["effect_value"] = -6.5
+    with pytest.raises(
+        ValidationError,
+        match="does not recompute",
+    ):
+        CompiledStudy.model_validate(payload)
+
+
+def test_derived_contrast_cannot_mix_source_arms():
+    payload = minimal_study()
+
+    payload["contrasts"][0]["provenance"]["source_record_ids"] = ["result-om-pd", "result-om-pd",]
+
+    with pytest.raises(
+        ValidationError,
+        match="source arms",
+    ):
+        CompiledStudy.model_validate(payload)

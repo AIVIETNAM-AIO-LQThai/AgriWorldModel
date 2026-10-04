@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import enum
+import math
 from typing import Any
 
 from pydantic import BaseModel, Field, model_validator
@@ -17,6 +18,21 @@ class ProvenanceType(str, enum.Enum):
     OUR_DERIVED = "our_derived"
     UNKNOWN = "unknown"
 
+class ReportStatus(str, enum.Enum):
+    REPORTED = "reported"
+    NOT_REPORTED = "not_reported"
+    NOT_COMPILED = "not_compiled"
+    NOT_APPLICABLE = "not_applicable"
+    INFERRED = "inferred"
+
+class ContrastEvidentialBasis(str, enum.Enum):
+    RANDOMIZED_WITHIN_BLOCK_ARM_MEAN_COMPARISON = "randomized_within_block_arm_mean_comparison"
+
+class UncertaintyStatus(str, enum.Enum):
+    AUTHOR_REPORTED = "author_reported"
+    NOT_RECONSTRUCTIBLE_FROM_PUBLISHED_SUMMARIES = "not_reconstructible_from_published_summaries"
+    NOT_APPLICABLE = "not_applicable"
+
 class EvidenceFlagType(str, enum.Enum):
     REPORTED_INCONSISTENCY = "reported_inconsistency"
     ABSTRACT_TABLE_MISMATCH = "abstract_table_mismatch"
@@ -26,6 +42,8 @@ class EvidenceFlagType(str, enum.Enum):
     NOT_CAUSALLY_IDENTIFIED = "not_causally_identified"
     ECONOMIC_CLAIM_UNSUPPORTED = "economic_claim_unsupported"
     OTHER = "other"
+    POST_TREATMENT_SELECTION = "post_treatment_selection"
+    RANDOMIZATION_UNIT_UNCLEAR = "randomization_unit_unclear"
 
 
 class Provenance(BaseModel):
@@ -113,6 +131,8 @@ class StudyDesign(BaseModel):
     design_type: str = Field(min_length=1)
 
     randomization_unit: str | None = None
+    randomization_unit_status: ReportStatus = ReportStatus.NOT_COMPILED
+
     blocking: str | None = None
     seasons: list[str] = Field(default_factory=list)
 
@@ -159,10 +179,12 @@ class InterventionProtocol(BaseModel):
     product_name: str | None = None
     composition_text: str | None = None
 
+    dose_status: ReportStatus = ReportStatus.NOT_COMPILED
     dose_text: str | None = None
     dose_value: float | None = None
     dose_unit: str | None = None
     dose_basis: str | None = None
+    
 
     application_mode: str | None = None
     timing_text: str | None = None
@@ -194,8 +216,14 @@ class OutcomeDefinition(BaseModel):
     name: str = Field(min_length=1)
 
     unit: str | None = None
+
     measurement_method: str | None = None
     measurement_time: str | None = None
+
+    sampling_rule: str | None = None
+    selection_rule: str | None = None
+
+    post_treatment_selection: bool | None = None
 
     notes: str | None = None
 
@@ -247,10 +275,22 @@ class Contrast(BaseModel):
     effect_value: float | None = None
     unit: str | None = None
 
+    evidential_basis: ContrastEvidentialBasis
+
+    estimand_text: str = Field(min_length=1)
+
+    uncertainty_status: UncertaintyStatus
+
     uncertainty_text: str | None = None
     significance_text: str | None = None
 
-    context: dict[str, str] = Field(default_factory=dict)
+    assumptions: list[str] = Field(
+        default_factory=list
+    )
+
+    context: dict[str, str] = Field(
+        default_factory=dict
+    )
 
     provenance: Provenance
 
@@ -394,9 +434,7 @@ class CompiledStudy(BaseModel):
         )
 
         if len(all_ids) != expected_count:
-            raise ValueError(
-                "Compiled-study identifiers must be globally unique."
-            )
+            raise ValueError("Compiled-study identifiers must be globally unique.")
 
         for arm in self.arms:
             unknown = (
@@ -404,38 +442,130 @@ class CompiledStudy(BaseModel):
             )
 
             if unknown:
-                raise ValueError(
-                    f"Arm {arm.arm_id} references unknown interventions: {sorted(unknown)}"
-                )
+                raise ValueError(f"Arm {arm.arm_id} references unknown interventions: {sorted(unknown)}")
 
         for result in self.arm_results:
             if result.arm_id not in arm_ids:
-                raise ValueError(
-                    f"Result {result.record_id} references unknown arm {result.arm_id}."
-                )
+                raise ValueError(f"Result {result.record_id} references unknown arm {result.arm_id}.")
 
             if result.outcome_id not in outcome_ids:
-                raise ValueError(
-                    f"Result {result.record_id} references unknown outcome {result.outcome_id}."
-                )
+                raise ValueError(f"Result {result.record_id} references unknown outcome {result.outcome_id}.")
 
         for contrast in self.contrasts:
             if contrast.intervention_arm_id not in arm_ids:
-                raise ValueError(
-                    f"Contrast {contrast.record_id} references "
-                    "an unknown intervention arm."
-                )
+                raise ValueError(f"Contrast {contrast.record_id} references an unknown intervention arm.")
 
             if contrast.comparator_arm_id not in arm_ids:
-                raise ValueError(
-                    f"Contrast {contrast.record_id} references "
-                    "an unknown comparator arm."
-                )
+                raise ValueError(f"Contrast {contrast.record_id} references an unknown comparator arm.")
 
             if contrast.outcome_id not in outcome_ids:
+                raise ValueError(f"Contrast {contrast.record_id} references an unknown outcome.")
+
+        result_by_id = {
+            result.record_id: result
+            for result in self.arm_results
+        }
+
+        for contrast in self.contrasts:
+            if contrast.provenance.provenance_type != ProvenanceType.OUR_DERIVED:
+                continue
+
+            source_ids = contrast.provenance.source_record_ids
+
+            if len(source_ids) != 2:
                 raise ValueError(
-                    f"Contrast {contrast.record_id} references an unknown outcome."
+                    f"Derived contrast "
+                    f"{contrast.record_id} must have "
+                    "exactly two source arm results."
                 )
+
+            try:
+                source_results = [result_by_id[source_id] for source_id in source_ids]
+            except KeyError as exc:
+                raise ValueError(
+                    f"Derived contrast "
+                    f"{contrast.record_id} must derive "
+                    "only from ArmResult records."
+                ) from exc
+
+            intervention_matches = [
+                result for result in source_results
+                if result.arm_id == contrast.intervention_arm_id
+            ]
+
+            comparator_matches = [
+                result for result in source_results
+                if result.arm_id == contrast.comparator_arm_id
+            ]
+
+            if (
+                len(intervention_matches) != 1
+                or len(comparator_matches) != 1
+            ):
+                raise ValueError(
+                    f"Derived contrast "
+                    f"{contrast.record_id} source arms "
+                    "do not match the declared comparison."
+                )
+
+            intervention_result = intervention_matches[0]
+            comparator_result = comparator_matches[0]
+
+            if (
+                intervention_result.outcome_id != contrast.outcome_id
+                or comparator_result.outcome_id
+                != contrast.outcome_id
+            ):
+                raise ValueError(f"Derived contrast {contrast.record_id} mixes outcomes.")
+
+            if (
+                intervention_result.unit != comparator_result.unit
+                or contrast.unit != intervention_result.unit
+            ):
+                raise ValueError(
+                    f"Derived contrast {contrast.record_id} mixes units."
+                )
+
+            for key in ("table", "site", "season"):
+                intervention_value = intervention_result.context.get(key)
+                comparator_value = comparator_result.context.get(key)
+                contrast_value = contrast.context.get(key)
+
+                if (
+                    intervention_value != comparator_value
+                    or intervention_value != contrast_value
+                ):
+                    raise ValueError(
+                        f"Derived contrast "
+                        f"{contrast.record_id} mixes "
+                        f"context for {key}."
+                    )
+
+            if (
+                contrast.effect_type == "absolute_mean_difference"
+                and intervention_result.value is not None
+                and comparator_result.value is not None
+            ):
+                expected = intervention_result.value - comparator_result.value
+
+                if contrast.effect_value is None:
+                    raise ValueError(
+                        f"Derived contrast "
+                        f"{contrast.record_id} has "
+                        "no effect value."
+                    )
+
+                if not math.isclose(
+                    contrast.effect_value,
+                    expected,
+                    rel_tol=0.0,
+                    abs_tol=1e-9,
+                ):
+                    raise ValueError(
+                        f"Derived contrast "
+                        f"{contrast.record_id} does not "
+                        "recompute from its source records."
+                    )
 
         for collection in [
             self.interpretations,
@@ -446,9 +576,7 @@ class CompiledStudy(BaseModel):
                 unknown = set(item.related_record_ids) - all_ids
 
                 if unknown:
-                    raise ValueError(
-                        f"{item.record_id} references unknown records: {sorted(unknown)}"
-                    )
+                    raise ValueError(f"{item.record_id} references unknown records: {sorted(unknown)}")
 
         # OUR_DERIVED records must also point to real records.
         provenance_holders = [
@@ -466,8 +594,6 @@ class CompiledStudy(BaseModel):
                 unknown = set(provenance.source_record_ids) - all_ids
 
                 if unknown:
-                    raise ValueError(
-                        f"{item.record_id} derives from unknown records: {sorted(unknown)}"
-                    )
+                    raise ValueError(f"{item.record_id} derives from unknown records: {sorted(unknown)}")
 
         return self
