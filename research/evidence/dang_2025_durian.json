@@ -4787,6 +4787,2406 @@
         "cited_reference": null,
         "notes": null
       }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-control-yield",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 65.1,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.35,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, Control, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-control-bstar",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 38.8,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 2.03,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, Control, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-control-tss",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-tss",
+      "value": 27.3,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.56,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, Control, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-control-pd",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-pd-rate",
+      "value": 12.6,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.81,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, Control, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-yield",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 70.6,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.9,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-bstar",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 45.0,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.46,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-tss",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-tss",
+      "value": 29.2,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.3,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-pd",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.37,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.42,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-ff-yield",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 71.9,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 2.31,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-ff-bstar",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 47.2,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.05,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-ff-tss",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-tss",
+      "value": 29.2,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.31,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-ff-pd",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.53,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.55,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-ff-yield",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 75.8,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.07,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM+FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-ff-bstar",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 63.2,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.05,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM+FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-ff-tss",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-tss",
+      "value": 31.3,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.8,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM+FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2022-2023-om-ff-pd",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 1.83,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.21,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2022-2023, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-control-yield",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 90.1,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.39,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, Control, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-control-bstar",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 42.3,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.43,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, Control, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-control-tss",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-tss",
+      "value": 26.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, Control, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-control-pd",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-pd-rate",
+      "value": 12.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.35,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, Control, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-yield",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 94.2,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.47,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-bstar",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 48.4,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.75,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-tss",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-tss",
+      "value": 29.0,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.46,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-pd",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.23,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.31,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-ff-yield",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 94.5,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.55,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-ff-bstar",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 49.5,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-ff-tss",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-tss",
+      "value": 29.2,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-ff-pd",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.77,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.31,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-ff-yield",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 97.8,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.25,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM+FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-ff-bstar",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 59.8,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.27,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM+FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-ff-tss",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-tss",
+      "value": 30.6,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM+FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d1-2023-2024-om-ff-pd",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 1.93,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.23,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D1, 2023-2024, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-control-yield",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 67.3,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.35,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, Control, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-control-bstar",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 42.4,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.82,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, Control, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-control-tss",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-tss",
+      "value": 27.4,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.56,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, Control, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-control-pd",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-pd-rate",
+      "value": 11.7,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.86,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, Control, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-yield",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 70.8,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.46,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-bstar",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 49.2,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 2.17,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-tss",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-tss",
+      "value": 29.1,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.26,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-pd",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.4,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.7,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-ff-yield",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 70.3,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.69,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-ff-bstar",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 49.2,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.23,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-ff-tss",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-tss",
+      "value": 29.3,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.67,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-ff-pd",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.63,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.7,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-ff-yield",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 76.1,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.54,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM+FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-ff-bstar",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 63.1,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.85,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM+FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-ff-tss",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-tss",
+      "value": 30.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.35,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM+FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2022-2023-om-ff-pd",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 1.17,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.83,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2022-2023, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-control-yield",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 89.5,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.4,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, Control, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-control-bstar",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 37.3,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 11.8,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, Control, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-control-tss",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-tss",
+      "value": 27.3,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.32,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, Control, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-control-pd",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-pd-rate",
+      "value": 13.4,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.2,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, Control, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-yield",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 94.9,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.31,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-bstar",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 50.8,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.25,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-tss",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-tss",
+      "value": 28.8,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.36,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-pd",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.6,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.9,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-ff-yield",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 95.3,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.96,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-ff-bstar",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 50.7,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.22,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-ff-tss",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-tss",
+      "value": 28.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.47,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-ff-pd",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.43,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.61,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-ff-yield",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 98.1,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.91,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM+FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-ff-bstar",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 63.4,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.95,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM+FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-ff-tss",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-tss",
+      "value": 30.8,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.25,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM+FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d2-2023-2024-om-ff-pd",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 1.77,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.21,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D2, 2023-2024, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-control-yield",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 66.8,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.72,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, Control, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-control-bstar",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 42.1,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.73,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, Control, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-control-tss",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-tss",
+      "value": 26.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.47,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, Control, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-control-pd",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-pd-rate",
+      "value": 14.2,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.66,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, Control, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-yield",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 71.0,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.42,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-bstar",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 47.7,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.16,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-tss",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-tss",
+      "value": 28.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.3,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-pd",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.87,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.35,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-ff-yield",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 71.7,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-ff-bstar",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 50.2,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.83,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-ff-tss",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-tss",
+      "value": 28.8,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-ff-pd",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 8.57,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.81,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-ff-yield",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 75.8,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.24,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM+FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-ff-bstar",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 59.0,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.31,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM+FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-ff-tss",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-tss",
+      "value": 30.6,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.55,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM+FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2022-2023-om-ff-pd",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 2.2,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2022-2023, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-control-yield",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 88.3,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.56,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, Control, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-control-bstar",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 43.4,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.95,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, Control, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-control-tss",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-tss",
+      "value": 27.8,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.36,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, Control, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-control-pd",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-pd-rate",
+      "value": 14.4,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.97,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, Control, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-yield",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 93.3,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.97,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-bstar",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 52.2,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.15,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-tss",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-tss",
+      "value": 29.8,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.31,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-pd",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-pd-rate",
+      "value": 9.53,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.72,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-ff-yield",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 94.0,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.79,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-ff-bstar",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 52.9,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-ff-tss",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-tss",
+      "value": 30.2,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.61,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-ff-pd",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 9.53,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-ff-yield",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-fruit-yield",
+      "value": 97.4,
+      "unit": "kg tree^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.43,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM+FF, yield",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-ff-bstar",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-aril-b-star",
+      "value": 63.9,
+      "unit": null,
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.4,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM+FF, bstar",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-ff-tss",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-tss",
+      "value": 31.9,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM+FF, tss",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t4-d3-2023-2024-om-ff-pd",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-pd-rate",
+      "value": 2.23,
+      "unit": "%",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.21,
+      "sample_size": 3,
+      "significance_group": "c",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 4"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 4, D3, 2023-2024, OM+FF, pd",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
     }
   ],
   "contrasts": [],
@@ -4811,15 +7211,25 @@
         "t2-d1-2022-2023-om-k"
       ],
       "locator": "Table 2, D1, 2022-2023, OM, K"
+    },
+    {
+      "record_id": "flag-table4-d2-control-bstar-sd",
+      "flag_type": "other",
+      "detail": "Table 4 reports the D2, 2023-2024 Control b* value as 37.3 c ± 11.8. The SD is unusually large relative to neighboring cells. It is preserved exactly as published and not corrected.",
+      "related_record_ids": [
+        "t4-d2-2023-2024-control-bstar"
+      ],
+      "locator": "Table 4, D2, 2023-2024, Control, b*"
     }
   ],
   "metadata": {
     "compilation_method": "manual",
-    "compilation_scope": "study design, sites, population, interventions, arms, outcome definitions, Table 1 soil chemistry results, and Table 2 leaf K/Ca results",
+    "compilation_scope": "study design, sites, population, interventions, arms, outcome definitions, Table 1 soil chemistry, Table 2 leaf nutrients, and Table 4 fruit yield and quality results",
     "results_compiled": false,
     "compiled_tables": [
       "Table 1",
-      "Table 2"
+      "Table 2",
+      "Table 4"
     ]
   }
 }
