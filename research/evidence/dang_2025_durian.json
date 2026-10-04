@@ -1667,6 +1667,3126 @@
         "cited_reference": null,
         "notes": null
       }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-control-ph",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.75,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.08,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, Control, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-control-soc",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soc",
+      "value": 20.3,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.85,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, Control, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-control-ap",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-available-p",
+      "value": 22.5,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.62,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, Control, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-control-k",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.5,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, Control, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-control-ca",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.79,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, Control, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ph",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.04,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.11,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-soc",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soc",
+      "value": 23.9,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.7,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ap",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-available-p",
+      "value": 26.7,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.46,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-k",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.6,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ca",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.19,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.04,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-ff-ph",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.77,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.08,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-ff-soc",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soc",
+      "value": 20.2,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.35,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-ff-ap",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 22.3,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-ff-k",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.52,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-ff-ca",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.76,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ff-ph",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.06,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM+FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ff-soc",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soc",
+      "value": 24.3,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.42,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM+FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ff-ap",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 26.3,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.56,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM+FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ff-k",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.62,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM+FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2022-2023-om-ff-ca",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.26,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2022-2023, OM+FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-control-ph",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.95,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, Control, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-control-soc",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soc",
+      "value": 19.2,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.32,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, Control, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-control-ap",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-available-p",
+      "value": 22.7,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.38,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, Control, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-control-k",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.52,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "*",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, Control, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-control-ca",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.75,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.09,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, Control, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ph",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.13,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.1,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-soc",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soc",
+      "value": 23.9,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ap",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-available-p",
+      "value": 26.4,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.42,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-k",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.62,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "*",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ca",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.22,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.09,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-ff-ph",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.88,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.09,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-ff-soc",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soc",
+      "value": 19.7,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.32,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-ff-ap",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 22.6,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.55,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-ff-k",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.54,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.04,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "*",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-ff-ca",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.78,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.09,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ff-ph",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.17,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM+FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ff-soc",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soc",
+      "value": 24.8,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.74,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM+FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ff-ap",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 26.0,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.47,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM+FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ff-k",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.63,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.04,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "*",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM+FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d1-2023-2024-om-ff-ca",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.25,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D1",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D1, 2023-2024, OM+FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-control-ph",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.69,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.08,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, Control, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-control-soc",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soc",
+      "value": 20.3,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.46,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, Control, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-control-ap",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-available-p",
+      "value": 19.5,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 1.05,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, Control, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-control-k",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.64,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, Control, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-control-ca",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.91,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, Control, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ph",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.03,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.08,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-soc",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soc",
+      "value": 23.9,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ap",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-available-p",
+      "value": 24.6,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.67,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-k",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.7,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ca",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.37,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.04,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-ff-ph",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.74,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.08,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-ff-soc",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soc",
+      "value": 20.1,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-ff-ap",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 19.9,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.65,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-ff-k",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.65,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-ff-ca",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.95,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.08,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ff-ph",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.07,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM+FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ff-soc",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soc",
+      "value": 24.1,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.47,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM+FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ff-ap",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 24.8,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.42,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM+FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ff-k",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.72,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM+FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2022-2023-om-ff-ca",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.45,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2022-2023, OM+FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-control-ph",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.81,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, Control, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-control-soc",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soc",
+      "value": 20.6,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.53,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, Control, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-control-ap",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-available-p",
+      "value": 20.6,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.46,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, Control, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-control-k",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.62,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, Control, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-control-ca",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.98,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, Control, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ph",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.12,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-soc",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soc",
+      "value": 24.9,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.35,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ap",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-available-p",
+      "value": 25.8,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.61,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-k",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.71,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ca",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.47,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.13,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-ff-ph",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.87,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-ff-soc",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soc",
+      "value": 20.7,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.6,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-ff-ap",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 20.8,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.32,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-ff-k",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.62,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-ff-ca",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 4.94,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ff-ph",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.16,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM+FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ff-soc",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soc",
+      "value": 25.0,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.56,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM+FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ff-ap",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 26.1,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.35,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM+FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ff-k",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.73,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM+FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d2-2023-2024-om-ff-ca",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.44,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D2",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D2, 2023-2024, OM+FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-control-ph",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.0,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, Control, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-control-soc",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soc",
+      "value": 20.3,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.57,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, Control, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-control-ap",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-available-p",
+      "value": 24.4,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.6,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, Control, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-control-k",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.58,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, Control, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-control-ca",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.21,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.11,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, Control, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ph",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.19,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-soc",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soc",
+      "value": 24.7,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.8,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ap",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-available-p",
+      "value": 27.8,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.31,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-k",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.68,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ca",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.62,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-ff-ph",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.0,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.06,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-ff-soc",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soc",
+      "value": 20.6,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.36,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-ff-ap",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 24.7,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.36,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-ff-k",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.59,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.01,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-ff-ca",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.23,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.07,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ff-ph",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.18,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM+FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ff-soc",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soc",
+      "value": 25.2,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.78,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM+FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ff-ap",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 28.6,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM+FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ff-k",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.68,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM+FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2022-2023-om-ff-ca",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.63,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2022-2023",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2022-2023, OM+FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-control-ph",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-ph",
+      "value": 4.97,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.04,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, Control, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-control-soc",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soc",
+      "value": 19.5,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.56,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, Control, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-control-ap",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-available-p",
+      "value": 23.9,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.64,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, Control, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-control-k",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.59,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, Control, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-control-ca",
+      "arm_id": "arm-control",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.3,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.09,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, Control, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ph",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.15,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-soc",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soc",
+      "value": 24.3,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ap",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-available-p",
+      "value": 27.2,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.3,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-k",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.68,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ca",
+      "arm_id": "arm-om",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.66,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-ff-ph",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.0,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.04,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-ff-soc",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soc",
+      "value": 19.9,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.47,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-ff-ap",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 23.7,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.4,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-ff-k",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.58,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-ff-ca",
+      "arm_id": "arm-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.27,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.05,
+      "sample_size": 3,
+      "significance_group": "b",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ff-ph",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-ph",
+      "value": 5.17,
+      "unit": "pH",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.03,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM+FF, ph",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ff-soc",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soc",
+      "value": 24.7,
+      "unit": "g C kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.6,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM+FF, soc",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ff-ap",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-available-p",
+      "value": 27.5,
+      "unit": "mg P kg^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.85,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM+FF, ap",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ff-k",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-k",
+      "value": 0.71,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.02,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "**",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM+FF, k",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
+    },
+    {
+      "record_id": "t1-d3-2023-2024-om-ff-ca",
+      "arm_id": "arm-om-ff",
+      "outcome_id": "outcome-soil-exchangeable-ca",
+      "value": 5.6,
+      "unit": "cmolc 100 g^-1",
+      "dispersion_type": "standard_deviation",
+      "dispersion_value": 0.13,
+      "sample_size": 3,
+      "significance_group": "a",
+      "comparison_significance": "***",
+      "context": {
+        "site": "D3",
+        "season": "2023-2024",
+        "table": "Table 1",
+        "soil_depth": "0-20 cm"
+      },
+      "provenance": {
+        "provenance_type": "author_result",
+        "locator": "Table 1, D3, 2023-2024, OM+FF, ca",
+        "source_record_ids": [],
+        "derivation": null,
+        "cited_reference": null,
+        "notes": null
+      }
     }
   ],
   "contrasts": [],
@@ -1695,9 +4815,10 @@
   ],
   "metadata": {
     "compilation_method": "manual",
-    "compilation_scope": "study design, sites, population, interventions, arms, outcome definitions, and Table 2 leaf K/Ca results",
+    "compilation_scope": "study design, sites, population, interventions, arms, outcome definitions, Table 1 soil chemistry results, and Table 2 leaf K/Ca results",
     "results_compiled": false,
     "compiled_tables": [
+      "Table 1",
       "Table 2"
     ]
   }
