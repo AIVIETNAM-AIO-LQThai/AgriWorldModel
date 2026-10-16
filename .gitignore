@@ -19,8 +19,9 @@ htmlcov/
 
 # Company/private data
 data/company/
-# Downloaded research corpus
-data/evidence/
+# Third-party research corpus: PDFs stay local; the manifest, duplicate
+# log and README under data/ remain trackable.
+data/**/*.pdf
 
 # OS
 .DS_Store
