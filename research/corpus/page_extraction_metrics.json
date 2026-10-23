@@ -1,0 +1,437 @@
+{
+  "by_topic": {
+    "diseases": {
+      "documents": 3,
+      "documents_unreadable": 0,
+      "low_text_fraction": 0.0,
+      "pages": 235,
+      "pages_low_text": 0
+    },
+    "nursing_guides": {
+      "documents": 7,
+      "documents_unreadable": 1,
+      "low_text_fraction": 0.0331,
+      "pages": 363,
+      "pages_low_text": 12
+    },
+    "observationals": {
+      "documents": 1,
+      "documents_unreadable": 0,
+      "low_text_fraction": 0.0,
+      "pages": 13,
+      "pages_low_text": 0
+    },
+    "techniques_research": {
+      "documents": 3,
+      "documents_unreadable": 0,
+      "low_text_fraction": 0.0,
+      "pages": 34,
+      "pages_low_text": 0
+    }
+  },
+  "definitions": {
+    "low_text_chars": 100,
+    "note": "low-text is not a failure; unreadable documents are excluded from page rates",
+    "parser": "pypdf (project environment)",
+    "sample_rule": "pages 1, n // 2 + 1 and n (1-based, deduplicated)"
+  },
+  "documents": [
+    {
+      "median_chars_per_page": 3955,
+      "open_status": "ok",
+      "pages": 101,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/diseases/phytophthora/southeast-asia__multi-crop__phytophthora-biology-distribution-identification__monograph-section__2004.pdf",
+      "primary_topic": "diseases",
+      "sample_chars": [
+        349,
+        607,
+        5612
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        51,
+        101
+      ],
+      "sample_tokens": [
+        47,
+        91,
+        792
+      ],
+      "sha256": "7c1d57154592e3ced987b892bc5726749385ae35b04e3f2db7f81043ba88db90"
+    },
+    {
+      "median_chars_per_page": 3522.5,
+      "open_status": "ok",
+      "pages": 84,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/diseases/phytophthora/southeast-asia__multi-crop__phytophthora-disease-management-hygiene-drainage-control__monograph-section__2004.pdf",
+      "primary_topic": "diseases",
+      "sample_chars": [
+        190,
+        3842,
+        1406
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        43,
+        84
+      ],
+      "sample_tokens": [
+        28,
+        558,
+        218
+      ],
+      "sha256": "15658e9e95c81c1707996975503c204d51096b2acce0891ab2c0052867df46f7"
+    },
+    {
+      "median_chars_per_page": 3685.5,
+      "open_status": "ok",
+      "pages": 50,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/diseases/phytophthora/southeast-asia__multi-crop__phytophthora-major-crop-diseases__monograph-section__2004.pdf",
+      "primary_topic": "diseases",
+      "sample_chars": [
+        196,
+        1445,
+        156
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        26,
+        50
+      ],
+      "sample_tokens": [
+        30,
+        215,
+        24
+      ],
+      "sha256": "5d534c6b8638a5c319d5df3bfb29c54d0c54ec15d81593a59ff8906c25a415ce"
+    },
+    {
+      "median_chars_per_page": 990.5,
+      "open_status": "ok",
+      "pages": 16,
+      "pages_extraction_error": 0,
+      "pages_low_text": 1,
+      "path": "data/nursing_guides/citrus/philippines-cordillera__citrus__vegetative-propagation-budding-grafting-cuttings__technoguide__2019.pdf",
+      "primary_topic": "nursing_guides",
+      "sample_chars": [
+        66,
+        989,
+        368
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        9,
+        16
+      ],
+      "sample_tokens": [
+        7,
+        178,
+        44
+      ],
+      "sha256": "b22455487af6dfa10ebba40ae54be1c2700df4f371ed6e82125c26cc7fe1d40e"
+    },
+    {
+      "open_status": "unreadable_by_pypdf",
+      "pages": null,
+      "path": "data/nursing_guides/coffee/indonesia__arabica-coffee__gap-postharvest__training-manual__2019.pdf",
+      "primary_topic": "nursing_guides",
+      "sha256": "d78db5b44c0c9ee6de12314c68278583abf9296f5927396c44c036f81ed759ce"
+    },
+    {
+      "median_chars_per_page": 2051,
+      "open_status": "ok",
+      "pages": 73,
+      "pages_extraction_error": 0,
+      "pages_low_text": 3,
+      "path": "data/nursing_guides/coffee/lao-pdr__arabica-coffee__gap-cultivation-processing-pest-management__manual__2005.pdf",
+      "primary_topic": "nursing_guides",
+      "sample_chars": [
+        235,
+        663,
+        1560
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        37,
+        73
+      ],
+      "sample_tokens": [
+        37,
+        102,
+        246
+      ],
+      "sha256": "c5bc17205074a01b184125ea667ca49c75bf1681832653d1b3906be29df3060b"
+    },
+    {
+      "median_chars_per_page": 576.5,
+      "open_status": "ok",
+      "pages": 20,
+      "pages_extraction_error": 0,
+      "pages_low_text": 2,
+      "path": "data/nursing_guides/coffee/philippines-region-12__coffee__production-propagation-care-harvest__technical-guide__undated.pdf",
+      "primary_topic": "nursing_guides",
+      "sample_chars": [
+        428,
+        77,
+        428
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.1538,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        11,
+        20
+      ],
+      "sample_tokens": [
+        59,
+        13,
+        59
+      ],
+      "sha256": "8dae9f420c4e402b04b095ff565b8ef58330ce703b4c7d376b73bed31abf3546"
+    },
+    {
+      "median_chars_per_page": 1524.5,
+      "open_status": "ok",
+      "pages": 62,
+      "pages_extraction_error": 0,
+      "pages_low_text": 2,
+      "path": "data/nursing_guides/durian/malaysia__durian__cultivation-pest-irrigation-postharvest__technology-package__2012.pdf",
+      "primary_topic": "nursing_guides",
+      "sample_chars": [
+        20,
+        2640,
+        47
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        32,
+        62
+      ],
+      "sample_tokens": [
+        3,
+        349,
+        8
+      ],
+      "sha256": "dc2db79f5898920d51fdc13b0f00af39d0d59e59d697447f425ff45bd6beb5d8"
+    },
+    {
+      "median_chars_per_page": 1113.0,
+      "open_status": "ok",
+      "pages": 108,
+      "pages_extraction_error": 0,
+      "pages_low_text": 1,
+      "path": "data/nursing_guides/durian/malaysia__durian__cultivation-pest-postharvest-marketing__technology-package__2024.pdf",
+      "primary_topic": "nursing_guides",
+      "sample_chars": [
+        22,
+        857,
+        2493
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        55,
+        108
+      ],
+      "sample_tokens": [
+        3,
+        119,
+        403
+      ],
+      "sha256": "ef8444760bc4480df6e235eaedf62baf73e33c5c5b93c841c1e0e39183dd6ffa"
+    },
+    {
+      "median_chars_per_page": 1714.5,
+      "open_status": "ok",
+      "pages": 84,
+      "pages_extraction_error": 0,
+      "pages_low_text": 3,
+      "path": "data/nursing_guides/durian/vietnam__durian__climate-smart-cultivation__technical-handbook__2021.pdf",
+      "primary_topic": "nursing_guides",
+      "sample_chars": [
+        79,
+        1508,
+        871
+      ],
+      "sample_legacy_token_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        43,
+        84
+      ],
+      "sample_tokens": [
+        18,
+        354,
+        166
+      ],
+      "sha256": "7fd7aaf9d6fc76de90b3e5ec347c364bec5c306c138c201766635b37c41f4c01"
+    },
+    {
+      "median_chars_per_page": 2841,
+      "open_status": "ok",
+      "pages": 13,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/observationals/orchard_surveys/vietnam-tien-giang-cai-lay__durian__fertilizer-practices-soil-properties__orchard-survey__2025.pdf",
+      "primary_topic": "observationals",
+      "sample_chars": [
+        2935,
+        1053,
+        3406
+      ],
+      "sample_legacy_token_fraction": [
+        0.0023,
+        0.0,
+        0.0021
+      ],
+      "sample_pages": [
+        1,
+        7,
+        13
+      ],
+      "sample_tokens": [
+        431,
+        179,
+        469
+      ],
+      "sha256": "42d8813e348b942c0dc5a994fe6ac0a1a81d440be817ef24ca994f338459899a"
+    },
+    {
+      "median_chars_per_page": 5464.5,
+      "open_status": "ok",
+      "pages": 10,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/techniques_research/fertilization/vietnam-can-tho-tan-binh__durian-musang-king__foliar-calcium-nitrate-magnesium-sulfate-yield-quality-pd__factorial-field-trial__2026.pdf",
+      "primary_topic": "techniques_research",
+      "sample_chars": [
+        3443,
+        4315,
+        7693
+      ],
+      "sample_legacy_token_fraction": [
+        0.0038,
+        0.0047,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        6,
+        10
+      ],
+      "sample_tokens": [
+        530,
+        639,
+        1021
+      ],
+      "sha256": "e056d748cb9b0865339d8c3d78b39ff9994c25de1afce9cf0a9d5957011fc449"
+    },
+    {
+      "median_chars_per_page": 3420,
+      "open_status": "ok",
+      "pages": 11,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/techniques_research/fertilization/vietnam-can-tho-tan-binh__durian-musang-king__npk-ratio-yield-quality-physiological-disorders__field-trial__2025.pdf",
+      "primary_topic": "techniques_research",
+      "sample_chars": [
+        3561,
+        3033,
+        3622
+      ],
+      "sample_legacy_token_fraction": [
+        0.1763,
+        0.1499,
+        0.0428
+      ],
+      "sample_pages": [
+        1,
+        6,
+        11
+      ],
+      "sample_tokens": [
+        743,
+        674,
+        654
+      ],
+      "sha256": "ae52151b080f9a1ec7b7b9508bfd8700e66faf023a0163992ee5ff432de2f1dc"
+    },
+    {
+      "median_chars_per_page": 3854,
+      "open_status": "ok",
+      "pages": 13,
+      "pages_extraction_error": 0,
+      "pages_low_text": 0,
+      "path": "data/techniques_research/fertilization/vietnam-mekong-delta__durian-ri6__organic-manure-foliar-fertilization-soil-leaf-yield-pd__field-trial__2025.pdf",
+      "primary_topic": "techniques_research",
+      "sample_chars": [
+        3986,
+        4333,
+        1448
+      ],
+      "sample_legacy_token_fraction": [
+        0.0098,
+        0.0,
+        0.0
+      ],
+      "sample_pages": [
+        1,
+        7,
+        13
+      ],
+      "sample_tokens": [
+        614,
+        717,
+        219
+      ],
+      "sha256": "5e8a648d3694d60fa1143a14246a0385cb93c4ce9e91ff315ffd6d5ec058eb0e"
+    }
+  ]
+}

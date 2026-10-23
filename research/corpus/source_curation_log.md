@@ -43,6 +43,8 @@ unknown. Registry rules are described in `data/README.md`.
 | ph-da-car-citrus-propagation-2019 | identifier_locator | — | blank: the record has no DOI or ISBN; URL provenance is in `concerns` | field definition |
 | fao-lao-arabica-coffee-manual-2005 | license | "copyright notice" | the stated reproduction terms | PDF p. 2 |
 
+A3 follow-up (page-level visual evidence, hash-matched): `doa-my-durian-package-2012` title verified from the rendered cover and removed from `unverified_fields`; `id-moa-arabica-gap-postharvest-2019` title extended to the full cover/page-4 wording (*Kurikulum Nasional dan Modul …*); `doa-my-durian-package-2024` title now cites the rendered cover as well as the acknowledgements; `jad-24-3-cai-lay-durian-soil` locator records that the page-1 "Cited as" line gives 24(3), 12-24 but no DOI.
+
 Schema adjustment: three columns were added to `SOURCES.csv` (`container_title`,
 `other_bodies`, `edition_statement`) because publisher, journal and
 sponsor/implementer roles cannot be held honestly in one field. `source_id`
