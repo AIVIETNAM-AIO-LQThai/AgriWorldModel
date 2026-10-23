@@ -16,11 +16,14 @@ from agriworldmodel.corpus.pdf_preflight import (
     preflight_pdf,
     shared_front_matter,
 )
+from agriworldmodel.corpus.sources import load_sources, validate_sources
 
 
 def build_report(root: Path) -> dict:
-    manifest = {row.new_path: row for row in load_manifest(root / "data/MANIFEST.csv")}
-    issues = validate_corpus(root)
+    rows = load_manifest(root / "data/MANIFEST.csv")
+    manifest = {row.new_path: row for row in rows}
+    sources = load_sources(root / "data/SOURCES.csv")
+    issues = sorted(validate_corpus(root) + validate_sources(sources, rows))
 
     # Preflight every manifest PDF that exists; missing files are
     # already reported as manifest issues.
@@ -35,6 +38,8 @@ def build_report(root: Path) -> dict:
         documents.append({
             "path": path,
             "sha256": row.sha256,
+            "source_id": row.source_id,
+            "source_part": row.source_part,
             "primary_topic": row.primary_topic,
             "document_role": row.document_role,
             "shared_front_matter_with": shared.get(path, []),

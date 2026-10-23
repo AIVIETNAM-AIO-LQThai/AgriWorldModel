@@ -35,3 +35,35 @@
 ## Duplicate policy
 
 Exact duplicates were not copied twice into this cleaned corpus. The original-to-canonical mapping is recorded in `DUPLICATES.csv`.
+
+## Source registry (`SOURCES.csv`) and manifest links
+
+`MANIFEST.csv` describes **files**; `SOURCES.csv` describes the **bibliographic
+works** they come from. Each manifest row names its work in `source_id`
+(stable; never reuse or rename). Several files of one work (e.g. excerpts of
+a monograph) are told apart by `source_part`.
+
+Blank means *unknown*. Nothing is filled in without a page or record locator.
+
+| Field | Meaning |
+|---|---|
+| `source_id` | Stable identifier, lowercase words joined by hyphens. |
+| `title` | Title as printed or registered (original language). |
+| `container_title` | Journal or series, when the work appears in one. |
+| `source_kind` | `journal_article`, `monograph` or `technical_guide`. |
+| `study_design`, `study_design_status` | `field_trial`, `observational_survey`, `guideline_or_review` or `unknown`; status says who established it (`reported_by_source`, `curator_assessed`, `unverified`). |
+| `issuing_body` | Publisher or formally issuing institution (not the authors' unit). |
+| `other_bodies` | `role: name; role: name` for hosts, implementers, co-publishers, ministries. |
+| `issuing_jurisdiction` | Jurisdiction of the issuing institution; not where the study ran. Blank for journals and intergovernmental bodies. |
+| `study_region` | Where the study was conducted, or where a guide is meant to apply. |
+| `year` | Publication or edition year as established; `undated` if none is printed. |
+| `edition_statement` | Verbatim edition/printing wording, for comparing editions. |
+| `doi`, `isbn`, `url` | Only values read from the document or an official record. Prefer official landing pages. |
+| `identifier_locator` | Page or publication record that supports the identifiers. |
+| `license`, `license_locator` | Stated licence/rights wording and where it was read. Copyright notices are not licences. |
+| `unverified_fields` | Fields still unresolved after reasonable checking (`;`-separated column names). |
+| `concerns` | Substantive bibliographic, evidence-quality, extraction or applicability cautions. |
+
+Validation: `research/scripts/audit_corpus.py` (writes
+`research/corpus/extraction_preflight.json`); curation decisions are recorded
+in `research/corpus/source_curation_log.md`.

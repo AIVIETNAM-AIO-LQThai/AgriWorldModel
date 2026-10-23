@@ -27,6 +27,10 @@ class ManifestRow(BaseModel):
     language: str
     sha256: str
     ambiguity_or_warning: str
+    # Link to the bibliographic work in SOURCES.csv; source_part tells
+    # apart several files (e.g. excerpts) of the same work.
+    source_id: str
+    source_part: str
 
 
 @dataclass(frozen=True, order=True)

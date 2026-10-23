@@ -8,7 +8,7 @@ from agriworldmodel.corpus.manifest import validate_corpus
 COLUMNS = [
     "original_path", "new_path", "primary_topic", "subcategory",
     "secondary_themes", "region", "crop", "document_role", "year",
-    "language", "sha256", "ambiguity_or_warning",
+    "language", "sha256", "ambiguity_or_warning", "source_id", "source_part",
 ]
 GOOD = (
     "data/techniques_research/fertilization/"
@@ -42,7 +42,7 @@ def row(path, content, **overrides):
         "secondary_themes": "", "region": "x", "crop": "durian",
         "document_role": "field trial", "year": "2025", "language": "en",
         "sha256": hashlib.sha256(content).hexdigest(),
-        "ambiguity_or_warning": "",
+        "ambiguity_or_warning": "", "source_id": "test-2025", "source_part": "",
     }
     return {**base, **overrides}
 
