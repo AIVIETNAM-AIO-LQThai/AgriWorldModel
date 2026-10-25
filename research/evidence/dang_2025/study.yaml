@@ -1,0 +1,590 @@
+# Human-reviewed build inputs for the Dang et al. (2025) compiled study.
+# Printed table cells live in cells.csv / markers.csv / table5.csv;
+# this file holds design, outcomes, flags and the wording of derived records.
+# Rebuild: python research/scripts/build_dang_2025.py --check
+study_id: dang-2025-durian-om-ff
+source:
+  source_key: dang-2025-plants-14-1185
+  title: Combining Organic and Foliar Fertilization to Enhance Soil Fertility and Mitigate Physiological Disorders of Durian (Durio zibethinus Murr.) Fruit in the Tropics
+  year: 2025
+  doi: 10.3390/plants14081185
+  citation: Dang LV, Quyen NK, Ngoc NP, Ly LM, Thao PTP, Hung NN. Plants. 2025;14(8):1185.
+  provenance_note: Compiled manually from the published article. No model-generated values are treated as source evidence.
+design:
+  design_type: randomized complete block design
+  randomization_unit: null
+  randomization_unit_status: not_reported
+  blocking: Randomized complete block design conducted separately in each of three durian orchards; four treatments; three replicates per treatment; 12 durian trees per treatment.
+  seasons:
+  - 2022-2023
+  - 2023-2024
+  notes: The paper states the randomized complete block design and replication structure but does not explicitly identify the physical randomization unit.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.3 Experimental Design
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+sites:
+- site_id: D1
+  name: Phong Dien District, Can Tho City
+  region: Vietnamese Mekong Delta
+  country: Vietnam
+  notes: 'Reported coordinates: 10°01′12″ N, 105°37′38″ E. Soil classified as alluvial.'
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.1 Study Location, Soil, Plants, and Climate
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+  latitude: 10.02
+  longitude: 105.627222
+- site_id: D2
+  name: Chau Thanh District, Hau Giang Province
+  region: Vietnamese Mekong Delta
+  country: Vietnam
+  notes: 'Reported coordinates: 9°57′15″ N, 105°45′21″ E. Soil classified as alluvial.'
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.1 Study Location, Soil, Plants, and Climate
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+  latitude: 9.954167
+  longitude: 105.755833
+- site_id: D3
+  name: Phung Hiep District, Hau Giang Province
+  region: Vietnamese Mekong Delta
+  country: Vietnam
+  notes: 'Reported coordinates: 9°54′51″ N, 105°43′31″ E. Soil classified as alluvial.'
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.1 Study Location, Soil, Plants, and Climate
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+  latitude: 9.914167
+  longitude: 105.725278
+population:
+  crop: durian
+  cultivar: Ri6
+  tree_age_years_min: 6.0
+  tree_age_years_max: 6.0
+  spacing: 6 m x 6 m
+  notes: Selected orchards were approximately 0.4-0.5 ha with 110-140 trees. Trees used for the experiment had similar trunk and stem diameters. Pest and weed control were applied uniformly.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.1 Study Location, Soil, Plants, and Climate
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+interventions:
+- intervention_id: int-background-npk
+  name: Common background NPK fertilization
+  intervention_type: soil fertilizer
+  product_name: NPK 15-15-15 complex fertilizer
+  composition_text: 15-15-15 N-P-K complex fertilizer
+  dose_status: reported
+  dose_text: 0.45 kg N, 0.45 kg P, and 0.45 kg K per tree
+  dose_value: null
+  dose_unit: null
+  dose_basis: per_tree
+  application_mode: topdressing
+  timing_text: 30% at 25 days after fruit set; 40% at 50 days after fruit set; 30% at 35 days before fruit harvest
+  frequency_text: Three applications during fruit development
+  notes: Applied uniformly to all treatment arms; therefore it is background management rather than the experimental contrast.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.3 Experimental Design
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- intervention_id: int-om
+  name: Organic manure
+  intervention_type: soil amendment
+  product_name: Commercial organic fertilizer from PPE Co., Ltd.
+  composition_text: Sugarcane filter cake was the primary feedstock. The paper reports total C 15.4%, porosity 76.2%, exchangeable K 15.0 cmolc kg^-1, exchangeable Ca 61.6 cmolc kg^-1, and available P 3.6 g kg^-1, with nutrient composition attributed to a previous study.
+  dose_status: reported
+  dose_text: 5 Mg ha^-1 season^-1
+  dose_value: 5.0
+  dose_unit: Mg ha^-1 season^-1
+  dose_basis: per_hectare_per_season
+  application_mode: topdressing
+  timing_text: 15 days after fruit set
+  frequency_text: One application per season as described
+  notes: Commercial organic manure produced in Can Tho City, Vietnam.
+  provenance:
+    provenance_type: author_method
+    locator: Sections 4.2 and 4.3
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- intervention_id: int-ff
+  name: Foliar fertilization
+  intervention_type: foliar fertilizer
+  product_name: TANO 708
+  composition_text: Authors report, according to the producer, 4% K2O and 4.3% Ca.
+  dose_status: not_reported
+  dose_text: null
+  dose_value: null
+  dose_unit: null
+  dose_basis: null
+  application_mode: foliar spray
+  timing_text: 40, 60, and 80 days after fruit set
+  frequency_text: Three sprays per season
+  notes: The article describes timing and product composition but does not state the applied spray dose/concentration in Sections 4.2-4.3.
+  provenance:
+    provenance_type: author_method
+    locator: Sections 4.2 and 4.3
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+arms:
+- arm_id: arm-control
+  label: Control
+  intervention_ids:
+  - int-background-npk
+  is_control: true
+  notes: Control means unamended with OM or FF; it still received the common NPK program.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.3 Experimental Design
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- arm_id: arm-om
+  label: OM
+  intervention_ids:
+  - int-background-npk
+  - int-om
+  is_control: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.3 Experimental Design
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- arm_id: arm-ff
+  label: FF
+  intervention_ids:
+  - int-background-npk
+  - int-ff
+  is_control: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.3 Experimental Design
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- arm_id: arm-om-ff
+  label: OM + FF
+  intervention_ids:
+  - int-background-npk
+  - int-om
+  - int-ff
+  is_control: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.3 Experimental Design
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+outcomes:
+- outcome_id: outcome-soil-ph
+  name: Soil pH
+  unit: pH
+  measurement_method: Digital pH meter using a 1:2.5 soil-to-water ratio
+  measurement_time: Fruit harvesting period
+  sampling_rule: Soil at 0-20 cm sampled around the canopy at three points 1 m from the trunk and mixed into one sample; 72 samples in total (4 treatments x 3 replicates x 3 sites x 2 seasons).
+  selection_rule: null
+  post_treatment_selection: false
+  notes: Soil sampled at 0-20 cm depth.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-soc
+  name: Soil organic carbon
+  unit: g C kg^-1
+  measurement_method: null
+  measurement_time: Fruit harvesting period
+  sampling_rule: Soil at 0-20 cm sampled around the canopy at three points 1 m from the trunk and mixed into one sample; 72 samples in total (4 treatments x 3 replicates x 3 sites x 2 seasons).
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-available-p
+  name: Available phosphorus
+  unit: mg P kg^-1
+  measurement_method: null
+  measurement_time: Fruit harvesting period
+  sampling_rule: Soil at 0-20 cm sampled around the canopy at three points 1 m from the trunk and mixed into one sample; 72 samples in total (4 treatments x 3 replicates x 3 sites x 2 seasons).
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-soil-exchangeable-k
+  name: Soil exchangeable potassium
+  unit: cmolc 100 g^-1
+  measurement_method: null
+  measurement_time: Fruit harvesting period
+  sampling_rule: Soil at 0-20 cm sampled around the canopy at three points 1 m from the trunk and mixed into one sample; 72 samples in total (4 treatments x 3 replicates x 3 sites x 2 seasons).
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-soil-exchangeable-ca
+  name: Soil exchangeable calcium
+  unit: cmolc 100 g^-1
+  measurement_method: null
+  measurement_time: Fruit harvesting period
+  sampling_rule: Soil at 0-20 cm sampled around the canopy at three points 1 m from the trunk and mixed into one sample; 72 samples in total (4 treatments x 3 replicates x 3 sites x 2 seasons).
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-leaf-k
+  name: Leaf potassium concentration
+  unit: g kg^-1
+  measurement_method: Atomic Absorption Spectrometer at 766.5 nm
+  measurement_time: Fruit harvesting period; leaf samples were collected simultaneously with soil sampling.
+  sampling_rule: Leaves were collected at the 5th and 6th positions of the bud; six leaves were picked from each durian tree, yielding 24 leaves per replication as reported.
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-leaf-ca
+  name: Leaf calcium concentration
+  unit: g kg^-1
+  measurement_method: Atomic Absorption Spectrometer at 422.7 nm
+  measurement_time: Fruit harvesting period; leaf samples were collected simultaneously with soil sampling.
+  sampling_rule: Leaves were collected at the 5th and 6th positions of the bud; six leaves were picked from each durian tree, yielding 24 leaves per replication as reported.
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.4 Soil and Durian Leaf Collection and Analysis
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-fruit-yield
+  name: Fruit yield
+  unit: kg tree^-1
+  measurement_method: Fresh weight of all harvested durian fruit
+  measurement_time: Fruit harvesting period
+  sampling_rule: All fruits of the trees were weighed (fresh weight) during the fruit harvesting period.
+  selection_rule: null
+  post_treatment_selection: false
+  notes: null
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-peel-proportion
+  name: Fruit peel proportion
+  unit: '%'
+  measurement_method: Fruit separated into peel, seed, and aril components and weighed
+  measurement_time: Fruit harvesting period
+  sampling_rule: Three durian fruits were randomly selected in each replicate to evaluate fruit quality.
+  selection_rule: Selected fruits weighed 2.2-2.8 kg and had no physical damage due to pest infestation.
+  post_treatment_selection: true
+  notes: Measured only on the selected fruit; applies to sound fruit of that weight range, not to all fruit of the orchard.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-seed-proportion
+  name: Fruit seed proportion
+  unit: '%'
+  measurement_method: Fruit separated into peel, seed, and aril components and weighed
+  measurement_time: Fruit harvesting period
+  sampling_rule: Three durian fruits were randomly selected in each replicate to evaluate fruit quality.
+  selection_rule: Selected fruits weighed 2.2-2.8 kg and had no physical damage due to pest infestation.
+  post_treatment_selection: true
+  notes: Measured only on the selected fruit; applies to sound fruit of that weight range, not to all fruit of the orchard.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-aril-proportion
+  name: Fruit aril proportion
+  unit: '%'
+  measurement_method: Fruit separated into peel, seed, and aril components and weighed
+  measurement_time: Fruit harvesting period
+  sampling_rule: Three durian fruits were randomly selected in each replicate to evaluate fruit quality.
+  selection_rule: Selected fruits weighed 2.2-2.8 kg and had no physical damage due to pest infestation.
+  post_treatment_selection: true
+  notes: Measured only on the selected fruit; applies to sound fruit of that weight range, not to all fruit of the orchard.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-aril-b-star
+  name: Aril b* color value
+  unit: null
+  measurement_method: CR-20 Color Reader
+  measurement_time: Fruit harvesting period
+  sampling_rule: Three durian fruits were randomly selected in each replicate to evaluate fruit quality.
+  selection_rule: Selected fruits weighed 2.2-2.8 kg and had no physical damage due to pest infestation.
+  post_treatment_selection: true
+  notes: Measured only on the selected fruit; applies to sound fruit of that weight range, not to all fruit of the orchard.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-tss
+  name: Total soluble solids
+  unit: '%'
+  measurement_method: Atago PAL-1 Pocket Refractometer
+  measurement_time: Fruit harvesting period
+  sampling_rule: Three durian fruits were randomly selected in each replicate to evaluate fruit quality.
+  selection_rule: Selected fruits weighed 2.2-2.8 kg and had no physical damage due to pest infestation.
+  post_treatment_selection: true
+  notes: Measured only on the selected fruit; applies to sound fruit of that weight range, not to all fruit of the orchard.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+- outcome_id: outcome-pd-rate
+  name: Physiological disorder percentage among flesh components of selected durian fruit
+  unit: '%'
+  measurement_method: Visual evaluation after fruit opening; number of flesh components exhibiting PD divided by total flesh components
+  measurement_time: Fruit harvesting period
+  sampling_rule: Three durian fruits were randomly selected in each replicate to evaluate fruit quality.
+  selection_rule: Selected fruits weighed 2.2-2.8 kg and had no physical damage due to pest infestation.
+  post_treatment_selection: true
+  notes: PD percentage was calculated as the number of flesh components showing physiological disorder divided by the total number of flesh components in the selected fruit. This should not be read as an orchard-wide fruit-level incidence estimate.
+  provenance:
+    provenance_type: author_method
+    locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+    source_record_ids: []
+    derivation: null
+    cited_reference: null
+    notes: null
+flags:
+- record_id: flag-ff-dose-missing
+  flag_type: missing_dose_information
+  detail: The article identifies TANO 708, its reported K2O/Ca composition, and the three application times, but the applied spray dose or concentration is not stated in Sections 4.2-4.3.
+  related_record_ids:
+  - int-ff
+  locator: Sections 4.2 and 4.3
+- record_id: flag-table2-d1-om-k-sd
+  flag_type: reported_inconsistency
+  detail: Table 2 reports the D1, 2022-2023, OM leaf-K cell as '13.9 b ± 035'. The decimal point in the reported SD is ambiguous, so dispersion_value is left unresolved rather than silently corrected.
+  related_record_ids:
+  - t2-d1-2022-2023-om-k
+  locator: Table 2, D1, 2022-2023, OM, K
+- record_id: flag-table4-d2-control-bstar-sd
+  flag_type: other
+  detail: Table 4 reports the D2, 2023-2024 Control b* value as 37.3 c ± 11.8. The SD is unusually large relative to neighboring cells. It is preserved exactly as published and not corrected.
+  related_record_ids:
+  - t4-d2-2023-2024-control-bstar
+  locator: Table 4, D2, 2023-2024, Control, b*
+- record_id: flag-randomization-unit-unclear
+  flag_type: randomization_unit_unclear
+  detail: The article reports a randomized complete block design with three replicates and 12 trees per treatment, but does not explicitly identify the physical randomization unit. The compiler therefore does not infer tree, plot, or replicate as the randomization unit. Every derived treatment-minus-control difference is therefore a descriptive difference of published arm means; the unit of inference and the independence of replicates are unknown.
+  related_record_ids: []
+  locator: Section 4.3 Experimental Design
+- record_id: flag-pd-post-treatment-selection
+  flag_type: post_treatment_selection
+  detail: Fruit-quality outcomes (PD rate, peel/seed/aril proportions, aril b* and TSS) were measured on three randomly selected fruits per replicate, restricted to 2.2-2.8 kg and no physical pest damage. Because this selection happens after treatment, these outcomes describe sound fruit in that weight range and are narrower than orchard-wide fruit-level outcomes. Fruit yield (all fruit weighed), soil and leaf outcomes are not subject to this rule.
+  related_record_ids:
+  - outcome-aril-b-star
+  - outcome-aril-proportion
+  - outcome-pd-rate
+  - outcome-peel-proportion
+  - outcome-seed-proportion
+  - outcome-tss
+  locator: Section 4.5 Evaluation of Fruit Yield and Quality Characteristics
+metadata:
+  compilation_method: manual
+  compilation_scope: study design, sites, population, interventions, arms, outcome definitions, Table 1 soil chemistry, Table 2 leaf nutrients, Table 3 fruit proportions, Table 4 fruit yield and quality, and Table 5 Pearson associations
+  results_compiled: true
+  compiled_tables:
+  - Table 1
+  - Table 2
+  - Table 3
+  - Table 4
+  - Table 5
+  derived_contrasts:
+    comparison: each experimental arm minus control
+    effect_type: absolute_mean_difference
+    count: 198
+    tables:
+    - Table 1
+    - Table 2
+    - Table 4
+  inference_semantics_refined: true
+  comparison_families_compiled: true
+  comparison_family_count: 66
+control_arm: arm-control
+treatments:
+  Control: arm-control
+  OM: arm-om
+  FF: arm-ff
+  OM+FF: arm-om-ff
+tables:
+  Table 1:
+    prefix: t1
+    sample_size: 3
+    context_extra:
+      soil_depth: 0-20 cm
+    variables:
+      ph: outcome-soil-ph
+      soc: outcome-soc
+      ap: outcome-available-p
+      k: outcome-soil-exchangeable-k
+      ca: outcome-soil-exchangeable-ca
+  Table 2:
+    prefix: t2
+    sample_size: 3
+    context_extra: {}
+    variables:
+      K: outcome-leaf-k
+      Ca: outcome-leaf-ca
+  Table 3:
+    prefix: t3
+    sample_size: 3
+    context_extra: {}
+    variables:
+      peel: outcome-peel-proportion
+      seed: outcome-seed-proportion
+      aril: outcome-aril-proportion
+  Table 4:
+    prefix: t4
+    sample_size: 3
+    context_extra: {}
+    variables:
+      yield: outcome-fruit-yield
+      bstar: outcome-aril-b-star
+      tss: outcome-tss
+      pd: outcome-pd-rate
+contrast_rules:
+  effect_type: absolute_mean_difference
+  evidential_basis: published_arm_mean_difference
+  estimand_text: Difference between the published arm means of one treatment arm and the control arm (each a mean over three replicates) within one orchard, season and outcome stratum. A descriptive comparison of reported summaries, not an estimated treatment effect.
+  uncertainty_status: not_reconstructible_from_published_summaries
+  uncertainty_text: The paper reports arm means and standard deviations (n = 3) but not the replicate-level data, block structure or randomization unit that an estimate of the standard error or confidence interval of this pairwise difference would need; none is inferred.
+  significance_text: null
+  assumptions:
+  - The two values are published arm means from one orchard and season, each over three replicates.
+  - The stored value is a deterministic difference of published means. It is not a block-adjusted, model-based or causal effect estimate, and the paper reports no pairwise test for this comparison.
+  - The physical randomization unit is not reported, so the unit of inference and the independence of replicates are unknown.
+  - No standard error, confidence interval or p-value is derived.
+  provenance_notes: Deterministic difference between published treatment and control arm means. No uncertainty or p-value is inferred.
+  difference_units:
+    '%': percentage points
+  selected_fruit_assumption: The outcome was measured only on selected fruit (see the outcome's sampling and selection rules), so the difference applies to that selection, not to all fruit.
+family_rules:
+  overall_test_method_status: not_reported
+  post_hoc_method: Duncan post hoc test
+  post_hoc_alpha: 0.05
+  group_letter_semantics: Different letters indicate a significant difference between treatment means under the Duncan post hoc procedure at p < 0.05, as stated in Section 4.6; the footnote wording is ambiguous (see flag-comparison-letter-semantics-ambiguous).
+  method_locator: Section 4.6 Data Analysis
+  result_locator_suffix: treatment letters and p-value row
+  no_letters_semantics: The paper prints no group letters for this family, whose reported family marker is ns (not significant); no pairwise grouping is available.
+association_rules:
+  statistic: pearson_r
+  sample_size: 72
+  scope: pooled study observations
+  significance_text:
+    '*': p < 0.05
+    '**': p < 0.01
+  variables:
+    soil_ph: outcome-soil-ph
+    soc: outcome-soc
+    available_p: outcome-available-p
+    exchangeable_k: outcome-soil-exchangeable-k
+    exchangeable_ca: outcome-soil-exchangeable-ca
+    leaf_k: outcome-leaf-k
+    leaf_ca: outcome-leaf-ca
+    fruit_yield: outcome-fruit-yield
+    pd_rate: outcome-pd-rate
+schema_version: compiled-study-2
+flag_updates:
+  flag-randomization-unit-unclear:
+    related_extra: all_contrast_ids
+generated_flags:
+  table5_consistency:
+    record_id: flag-table5-markers-inconsistent-with-n72
+    flag_type: reported_inconsistency
+    locator: Table 5 (caption and annotations)
+    detail_template: 'Treating the n = {n} stated in the Table 5 caption as {n} independent pairs, a two-sided Pearson test implies p < 0.05 for |r| >= {c05} and p < 0.01 for |r| >= {c01}. Reading ''*'' as 0.01 <= p < 0.05, ''**'' as p < 0.01 and no mark as p >= 0.05, {n_inconsistent} of {n_total} printed annotations disagree: {n_missing} correlations carry no star although |r| >= {c05} (a disagreement under any reading of the stars) and {n_single_star} carry a single star although |r| >= {c01}. Under an inclusive reading of ''*'' (p < 0.05 even when p is smaller) only the {n_missing} unmarked cells disagree. The printed r values and stars are preserved unchanged. This does not show that the authors'' tests were wrong: the pooled observations are probably not {n} independent pairs, and the number of observations behind each leaf and fruit variable is not stated. The related records are the correlations whose printed annotation disagrees with the independent-pairs check.'
+  table5_pooling:
+    record_id: flag-table5-pooled-observations
+    flag_type: not_causally_identified
+    locator: Table 5; Section 4.4
+    detail: 'Table 5 correlations pool observations across treatments, sites and seasons (n = 72 is the stated total; the soil samples are 4 treatments x 3 replicates x 3 sites x 2 seasons). They are descriptive associations of pooled values: treatment arms, orchards and seasons are mixed, observations from the same orchard, season or replicate are probably not independent, and soil and leaf values were measured after treatment. They are not intervention effects and not evidence that changing one soil or leaf variable would change the PD rate. The paper does not state the unit behind each observation for leaf and fruit variables.'
+  letter_semantics:
+    record_id: flag-comparison-letter-semantics-ambiguous
+    flag_type: other
+    locator: Table 1-4 footnotes; Section 4.6
+    detail: Section 4.6 states that Duncan's post hoc test (p < 0.05) was used to identify differences among treatments. The table footnotes say 'Different letters indicate significance at p < 0.05 (*), p < 0.01 (**), and p < 0.001 (***)' (Table 1; the other tables list the levels they use), which ties letters to the asterisk levels printed in each table's p-value row without naming the omnibus test behind that row. The compiled families keep the printed letters and the printed marker separately, attribute the letters to the Duncan procedure at alpha 0.05 as stated in Section 4.6, and do not infer the omnibus test.

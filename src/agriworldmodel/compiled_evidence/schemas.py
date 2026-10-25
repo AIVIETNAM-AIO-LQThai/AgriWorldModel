@@ -26,7 +26,21 @@ class ReportStatus(str, enum.Enum):
     INFERRED = "inferred"
 
 class ContrastEvidentialBasis(str, enum.Enum):
-    RANDOMIZED_WITHIN_BLOCK_ARM_MEAN_COMPARISON = "randomized_within_block_arm_mean_comparison"
+    # Difference of two published arm means. It is NOT a model-adjusted or
+    # block-adjusted treatment-effect estimate and carries no uncertainty.
+    PUBLISHED_ARM_MEAN_DIFFERENCE = "published_arm_mean_difference"
+
+# Unit of an absolute difference between two percentage-valued results.
+PERCENTAGE_POINTS = "percentage points"
+
+
+def difference_unit(arm_unit: str | None) -> str | None:
+    """Unit of an absolute difference of two results measured in arm_unit.
+
+    A difference of two percentages is in percentage points, not percent;
+    every other unit is unchanged.
+    """
+    return PERCENTAGE_POINTS if arm_unit == "%" else arm_unit
 
 class UncertaintyStatus(str, enum.Enum):
     AUTHOR_REPORTED = "author_reported"
@@ -395,7 +409,7 @@ class EvidenceFlag(BaseModel):
 # Complete compiled study
 # -------------------------------------------------------------------
 class CompiledStudy(BaseModel):
-    schema_version: str = "compiled-study-1"
+    schema_version: str = "compiled-study-2"
 
     study_id: str = Field(min_length=1)
 
@@ -595,9 +609,15 @@ class CompiledStudy(BaseModel):
                 result.arm_id for result in members
             }
 
-            if (
-                set(family.group_letters_by_arm) != member_arm_ids
-            ):
+            # Letters must cover every member arm. The one exception is a
+            # family the paper marks "ns", which prints no letters at all.
+            letter_arms = set(family.group_letters_by_arm)
+            no_letters_ok = (
+                not letter_arms
+                and family.reported_family_significance_marker == "ns"
+            )
+
+            if letter_arms != member_arm_ids and not no_letters_ok:
                 raise ValueError(
                     f"Comparison family "
                     f"{family.record_id} group "
@@ -681,9 +701,17 @@ class CompiledStudy(BaseModel):
             ):
                 raise ValueError(f"Derived contrast {contrast.record_id} mixes outcomes.")
 
+            # Both results share a unit; an absolute difference of
+            # percentages is expressed in percentage points.
+            expected_unit = (
+                difference_unit(intervention_result.unit)
+                if contrast.effect_type == "absolute_mean_difference"
+                else intervention_result.unit
+            )
+
             if (
                 intervention_result.unit != comparator_result.unit
-                or contrast.unit != intervention_result.unit
+                or contrast.unit != expected_unit
             ):
                 raise ValueError(f"Derived contrast {contrast.record_id} mixes units.")
 

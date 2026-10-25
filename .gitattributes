@@ -1,0 +1,2 @@
+# Canonical LF endings so builds are byte-identical on every platform.
+research/evidence/** text eol=lf

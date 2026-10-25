@@ -114,8 +114,8 @@ def minimal_study() -> dict:
                 "outcome_id": "outcome-pd",
                 "effect_type": "absolute_mean_difference",
                 "effect_value": -7.0,
-                "unit": "%",
-                "evidential_basis": "randomized_within_block_arm_mean_comparison",
+                "unit": "percentage points",
+                "evidential_basis": "published_arm_mean_difference",
                 "estimand_text": "Difference in published arm means within the fixture stratum.",
                 "uncertainty_status": "not_reconstructible_from_published_summaries",
                 "provenance": {
@@ -308,3 +308,43 @@ def test_comparison_family_letters_must_match_arms():
         match="group letters",
     ):
         CompiledStudy.model_validate(payload)
+
+def test_percentage_difference_must_be_in_percentage_points():
+    payload = minimal_study()
+    payload["contrasts"][0]["unit"] = "%"
+    with pytest.raises(ValidationError, match="mixes units"):
+        CompiledStudy.model_validate(payload)
+
+
+def test_non_percentage_difference_keeps_the_arm_unit():
+    payload = minimal_study()
+    for result in payload["arm_results"]:
+        result["unit"] = "kg tree^-1"
+    payload["contrasts"][0]["unit"] = "percentage points"
+    with pytest.raises(ValidationError, match="mixes units"):
+        CompiledStudy.model_validate(payload)
+    payload["contrasts"][0]["unit"] = "kg tree^-1"
+    CompiledStudy.model_validate(payload)
+
+
+def test_old_randomized_basis_label_is_rejected():
+    payload = minimal_study()
+    payload["contrasts"][0]["evidential_basis"] = (
+        "randomized_within_block_arm_mean_comparison")
+    with pytest.raises(ValidationError):
+        CompiledStudy.model_validate(payload)
+
+
+def test_family_without_letters_is_valid_only_when_marked_ns():
+    payload = minimal_study()
+    add_valid_comparison_family(payload)
+    family = payload["comparison_families"][0]
+    family["group_letters_by_arm"] = {}
+
+    family["reported_family_significance_marker"] = "ns"
+    CompiledStudy.model_validate(payload)
+
+    for marker in ("***", None):
+        family["reported_family_significance_marker"] = marker
+        with pytest.raises(ValidationError, match="letters must match"):
+            CompiledStudy.model_validate(payload)

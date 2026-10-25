@@ -1,0 +1,37 @@
+x,y,printed
+soc,soil_ph,0.74 **
+available_p,soil_ph,0.87 **
+available_p,soc,0.77 **
+exchangeable_k,soil_ph,0.51 *
+exchangeable_k,soc,0.72 **
+exchangeable_k,available_p,0.42
+exchangeable_ca,soil_ph,0.77 **
+exchangeable_ca,soc,0.76 **
+exchangeable_ca,available_p,0.79 **
+exchangeable_ca,exchangeable_k,0.75 **
+leaf_k,soil_ph,0.55 *
+leaf_k,soc,0.66 *
+leaf_k,available_p,0.51 *
+leaf_k,exchangeable_k,0.63 **
+leaf_k,exchangeable_ca,0.58 *
+leaf_ca,soil_ph,0.38
+leaf_ca,soc,0.60 *
+leaf_ca,available_p,0.39
+leaf_ca,exchangeable_k,0.38
+leaf_ca,exchangeable_ca,0.25
+leaf_ca,leaf_k,0.77 **
+fruit_yield,soil_ph,0.37
+fruit_yield,soc,0.17
+fruit_yield,available_p,0.16
+fruit_yield,exchangeable_k,0.18
+fruit_yield,exchangeable_ca,0.17
+fruit_yield,leaf_k,0.31
+fruit_yield,leaf_ca,0.17
+pd_rate,soil_ph,−0.54 *
+pd_rate,soc,−0.71 **
+pd_rate,available_p,−0.52 *
+pd_rate,exchangeable_k,−0.54 *
+pd_rate,exchangeable_ca,−0.46 *
+pd_rate,leaf_k,−0.88 **
+pd_rate,leaf_ca,−0.91 **
+pd_rate,fruit_yield,−0.22
